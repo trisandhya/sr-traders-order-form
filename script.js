@@ -1,4 +1,6 @@
-// Load JSON file
+// Quantity choices
+const quantityOptions = [0, 12, 24, 36, 48];
+
 async function loadProducts() {
   const response = await fetch('balaji_products_all.json');
   const products = await response.json();
@@ -22,13 +24,16 @@ async function loadProducts() {
         title.textContent = `${product.title} - ${variant.title} (₹${variant.price})`;
         card.appendChild(title);
 
-        // Quantity input
-        const input = document.createElement('input');
-        input.type = 'number';
-        input.name = `${product.title}_${variant.title}`.replace(/\s+/g, '_');
-        input.min = 0;
-        input.value = 0;
-        card.appendChild(input);
+        // Quantity dropdown
+        const select = document.createElement('select');
+        select.name = `${product.title}_${variant.title}`.replace(/\s+/g, '_');
+        quantityOptions.forEach(qty => {
+          const option = document.createElement('option');
+          option.value = qty;
+          option.textContent = qty;
+          select.appendChild(option);
+        });
+        card.appendChild(select);
 
         grid.appendChild(card);
       });
@@ -40,10 +45,10 @@ async function loadProducts() {
 document.getElementById('orderForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const data = {};
-  const inputs = document.querySelectorAll("input[type=number]");
-  inputs.forEach(input => {
-    if (parseInt(input.value) > 0) {
-      data[input.name] = input.value;
+  const selects = document.querySelectorAll("select");
+  selects.forEach(select => {
+    if (parseInt(select.value) > 0) {
+      data[select.name] = select.value;
     }
   });
   console.log("Order JSON:", JSON.stringify(data));
