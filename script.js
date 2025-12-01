@@ -43,9 +43,11 @@ async function loadProducts() {
 
 // Convert order data to CSV
 function convertToCSV(obj) {
-  const rows = [["Product", "Quantity"]];
+  const rows = [["Shop Name", obj.shopName], [], ["Product", "Quantity"]];
   for (let key in obj) {
-    rows.push([key, obj[key]]);
+    if (key !== "shopName") {
+      rows.push([key, obj[key]]);
+    }
   }
   return rows.map(r => r.join(",")).join("\n");
 }
@@ -54,7 +56,14 @@ function convertToCSV(obj) {
 document.getElementById('orderForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const data = {};
-  const selects = document.querySelectorAll("select");
+  const shopName = document.getElementById("shopSelect").value;
+  if (!shopName) {
+    alert("Please select a shop name.");
+    return;
+  }
+  data.shopName = shopName;
+
+  const selects = document.querySelectorAll("select:not(#shopSelect)");
   selects.forEach(select => {
     if (parseInt(select.value) > 0) {
       data[select.name] = select.value;
@@ -77,7 +86,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   csvLink.download = "order.csv";
   csvLink.click();
 
-  alert("Order submitted! JSON and CSV downloaded.");
+  alert("Order submitted for " + shopName + "! JSON and CSV downloaded.");
 });
 
 loadProducts();
