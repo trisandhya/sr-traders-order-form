@@ -1,4 +1,4 @@
-// Quantity choices
+// Fixed quantity choices
 const quantityOptions = [0, 12, 24, 36, 48];
 
 async function loadProducts() {
@@ -41,6 +41,15 @@ async function loadProducts() {
   });
 }
 
+// Convert order data to CSV
+function convertToCSV(obj) {
+  const rows = [["Product", "Quantity"]];
+  for (let key in obj) {
+    rows.push([key, obj[key]]);
+  }
+  return rows.map(r => r.join(",")).join("\n");
+}
+
 // Handle form submission
 document.getElementById('orderForm').addEventListener('submit', function(e) {
   e.preventDefault();
@@ -51,8 +60,24 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
       data[select.name] = select.value;
     }
   });
-  console.log("Order JSON:", JSON.stringify(data));
-  alert("Order submitted! Check console for JSON output.");
+
+  // JSON download
+  const jsonBlob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const jsonUrl = URL.createObjectURL(jsonBlob);
+  const jsonLink = document.createElement("a");
+  jsonLink.href = jsonUrl;
+  jsonLink.download = "order.json";
+  jsonLink.click();
+
+  // CSV download
+  const csvBlob = new Blob([convertToCSV(data)], { type: "text/csv" });
+  const csvUrl = URL.createObjectURL(csvBlob);
+  const csvLink = document.createElement("a");
+  csvLink.href = csvUrl;
+  csvLink.download = "order.csv";
+  csvLink.click();
+
+  alert("Order submitted! JSON and CSV downloaded.");
 });
 
 loadProducts();
