@@ -1,0 +1,23 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Inject secrets into JS
+        run: |
+          sed -i "s|__WEB_APP_URL__|${{ secrets.WEB_APP_URL }}|g" script.js
+          sed -i "s|__DEPLOYMENT_ID__|${{ secrets.DEPLOYMENT_ID }}|g" script.js
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
