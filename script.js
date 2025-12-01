@@ -43,9 +43,9 @@ async function loadProducts() {
 
 // Convert order data to CSV
 function convertToCSV(obj) {
-  const rows = [["Shop Name", obj.shopName], [], ["Product", "Quantity"]];
+  const rows = [["Shop Name", obj.shopName], ["Order Date", obj.orderDate], [], ["Product", "Quantity"]];
   for (let key in obj) {
-    if (key !== "shopName") {
+    if (key !== "shopName" && key !== "orderDate") {
       rows.push([key, obj[key]]);
     }
   }
@@ -57,11 +57,15 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const data = {};
   const shopName = document.getElementById("shopSelect").value;
-  if (!shopName) {
-    alert("Please select a shop name.");
+  const orderDate = document.getElementById("orderDate").value;
+
+  if (!shopName || !orderDate) {
+    alert("Please select a shop name and date.");
     return;
   }
+
   data.shopName = shopName;
+  data.orderDate = orderDate;
 
   const selects = document.querySelectorAll("select:not(#shopSelect)");
   selects.forEach(select => {
@@ -86,7 +90,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   csvLink.download = "order.csv";
   csvLink.click();
 
-  alert("Order submitted for " + shopName + "! JSON and CSV downloaded.");
+  alert("Order submitted for " + shopName + " on " + orderDate + "! JSON and CSV downloaded.");
 });
 
 loadProducts();
