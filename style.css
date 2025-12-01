@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+.grid { display: flex; flex-wrap: wrap; }
+.card { width: 160px; margin: 10px; text-align: center; border: 1px solid #ccc; padding: 10px; }
+img { width: 120px; height: auto; }
