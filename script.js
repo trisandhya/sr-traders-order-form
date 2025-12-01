@@ -1,6 +1,19 @@
 // Fixed quantity choices
 const quantityOptions = [0, 12, 24, 36, 48];
 
+async function loadShops() {
+  const response = await fetch('shops.json');
+  const shops = await response.json();
+  const shopSelect = document.getElementById('shopSelect');
+
+  shops.forEach(shop => {
+    const option = document.createElement('option');
+    option.value = shop;
+    option.textContent = shop;
+    shopSelect.appendChild(option);
+  });
+}
+
 async function loadProducts() {
   const response = await fetch('balaji_products_all.json');
   const products = await response.json();
@@ -92,5 +105,6 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
 
   alert("Order submitted for " + shopName + " on " + orderDate + "! JSON and CSV downloaded.");
 });
-
+loadShops();
 loadProducts();
+
