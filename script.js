@@ -1,0 +1,113 @@
+const quantityOptions = [0, 12, 24, 36, 48];
+
+async function loadShops() {
+  const response = await fetch('shops.json');
+  const shops = await response.json();
+  const shopSelect = document.getElementById('shopSelect');
+
+  shops.forEach(shop => {
+    const option = document.createElement('option');
+    option.value = shop;
+    option.textContent = shop;
+    shopSelect.appendChild(option);
+  });
+}
+
+async function loadProducts() {
+  const response = await fetch('balaji_products_all.json');
+  const products = await response.json();
+  const grid = document.getElementById('productGrid');
+
+  products.forEach(product => {
+    if (product.variants) {
+      product.variants.forEach(variant => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const img = document.createElement('img');
+        if (product.images && product.images.length > 0) {
+          img.src = product.images[0].src;
+        }
+        card.appendChild(img);
+
+        const title = document.createElement('p');
+        title.textContent = `${product.title} - ${variant.title} (₹${variant.price})`;
+        card.appendChild(title);
+
+        const select = document.createElement('select');
+        select.name = `${product.title}_${variant.title}`.replace(/\s+/g, '_');
+        quantityOptions.forEach(qty => {
+          const option = document.createElement('option');
+          option.value = qty;
+          option.textContent = qty;
+          select.appendChild(option);
+        });
+        card.appendChild(select);
+
+        grid.appendChild(card);
+      });
+    }
+  });
+}
+
+document.getElementById('orderForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const data = {};
+  const shopName = document.getElementById("shopSelect").value;
+  const orderDate = document.getElementById("orderDate").value;
+
+  if (!shopName || !orderDate) {
+    alert("Please select a shop name and date.");
+    return;
+  }
+
+  data.shopName = shopName;
+  data.orderDate = orderDate;
+
+  const selects = document.querySelectorAll("select:not(#shopSelect)");
+  selects.forEach(select => {
+    if (parseInt(select.value) > 0) {
+      data[select.name] = select.value;
+    }
+  });
+
+  // JSON + CSV download logic (same as before)
+  const jsonBlob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const jsonUrl = URL.createObjectURL(jsonBlob);
+  const jsonLink = document.createElement("a");
+  jsonLink.href = jsonUrl;
+  jsonLink.download = "order.json";
+  jsonLink.click();
+
+  const rows = [["Shop Name", data.shopName], ["Order Date", data.orderDate], [], ["Product", "Quantity"]];
+  for (let key in data) {
+    if (key !== "shopName" && key !== "orderDate") {
+      rows.push([key, data[key]]);
+    }
+  }
+  const csvBlob = new Blob([rows.map(r => r.join(",")).join("\n")], { type: "text/csv" });
+  const csvUrl = URL.createObjectURL(csvBlob);
+  const csvLink = document.createElement("a");
+  csvLink.href = csvUrl;
+  csvLink.download = "order.csv";
+  csvLink.click();
+
+  alert("Order submitted for " + shopName + " on " + orderDate + "! JSON and CSV downloaded.");
+});
+// Placeholder replaced during build
+const WEB_APP_URL = "";
+const DEPLOYMENT_ID = "";
+
+// Send order to Google Sheet via Apps Script Web App
+fetch(WEB_APP_URL, {
+  method: "POST",
+  body: JSON.stringify(data),
+  headers: { "Content-Type": "application/json" }
+})
+.then(res => res.text())
+.then(msg => console.log("Sheet update:", msg, "Deployment:", DEPLOYMENT_ID))
+.catch(err => console.error("Error updating sheet:", err));
+
+
+loadShops();
+loadProducts();

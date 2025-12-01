@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SR-Traders Order Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>SR-Traders Order Form</h1>
+  <form id="orderForm">
+    <!-- Shop selector -->
+    <label for="shopSelect" class="form-label">Shop Name:</label>
+    <select id="shopSelect" name="shopName" required class="form-input">
+      <option value="">-- Select Shop --</option>
+      <!-- Options populated dynamically from shops.json -->
+    </select>
+
+    <!-- Date picker -->
+    <label for="orderDate" class="form-label">Order Date:</label>
+    <input type="date" id="orderDate" name="orderDate" required class="form-input">
+
+    <!-- Product grid -->
+    <div id="productGrid" class="grid"></div>
+
+    <button type="submit">Submit Order</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

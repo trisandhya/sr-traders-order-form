@@ -1,0 +1,4872 @@
+[
+  {
+    "id": 9828565385507,
+    "title": "Aloo Sev",
+    "handle": "aloo-sev",
+    "body_html": "<p>The snack that’s always invited to the party! Lightly peppered, just a hint of mint, and crunchy—Aloo Sev makes everything better, from chai time to movie night.</p>",
+    "published_at": "2025-03-11T13:12:52+05:30",
+    "created_at": "2025-03-11T13:12:52+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311256199459,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "102536",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828565385507,
+        "created_at": "2025-03-11T13:12:54+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 53311256232227,
+        "title": "400g",
+        "option1": "400g",
+        "option2": null,
+        "option3": null,
+        "sku": "102537",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "80.00",
+        "grams": 400,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828565385507,
+        "created_at": "2025-03-11T13:12:54+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49472732922147,
+        "created_at": "2025-04-23T10:37:14+05:30",
+        "position": 1,
+        "updated_at": "2025-04-23T10:37:25+05:30",
+        "product_id": 9828565385507,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Aloo_Sev_Carousal_01_82fc6d97-78a8-47c1-ad6d-fd01444d33b8.jpg?v=1745384845",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49472732725539,
+        "created_at": "2025-04-23T10:37:13+05:30",
+        "position": 2,
+        "updated_at": "2025-04-23T10:37:25+05:30",
+        "product_id": 9828565385507,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Aloo_Sev_Carousal_02_d9969948-14b9-4d30-92b0-952df2e4df61.jpg?v=1745384845",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49472732791075,
+        "created_at": "2025-04-23T10:37:13+05:30",
+        "position": 3,
+        "updated_at": "2025-04-23T10:37:25+05:30",
+        "product_id": 9828565385507,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Aloo_Sev_Carousal_03_6aaa1630-638d-48db-92cc-1d9b23be7b3c.jpg?v=1745384845",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g",
+          "400g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828646191395,
+    "title": "Amaize Cheese Chilli Nachos",
+    "handle": "amaize-cheese-chilli-nachos",
+    "body_html": "<p>Cheese brings the melty magic, chilli brings the kick. Together, they make every bite dangerously delicious. Think you can handle it?</p>",
+    "published_at": "2025-03-11T16:23:54+05:30",
+    "created_at": "2025-03-11T16:23:55+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314729771299,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "104761",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "30.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828646191395,
+        "created_at": "2025-03-11T16:23:56+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49546025107747,
+        "created_at": "2025-05-02T14:04:22+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T10:38:08+05:30",
+        "product_id": 9828646191395,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Amaize_Cheese_Chilli_Nachos_Carousal_01_e2e737a2-d786-4f46-ab76-351e57d54849.jpg?v=1746508088",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49546025074979,
+        "created_at": "2025-05-02T14:04:22+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T10:38:08+05:30",
+        "product_id": 9828646191395,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Amaize_Cheese_Chilli_Nachos_Carousal_02_07e62981-8ead-4505-8abd-0f43c0d7059f.jpg?v=1746508088",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49546025042211,
+        "created_at": "2025-05-02T14:04:21+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T10:38:08+05:30",
+        "product_id": 9828646191395,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Amaize_Cheese_Chilli_Nachos_Carousal_03_5f523230-aee9-4e08-8aef-976b5949226e.jpg?v=1746508088",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828646486307,
+    "title": "Amaize Flamin' Hot Nachos",
+    "handle": "amaize-flamin-hot-nachos",
+    "body_html": "<p>Not for the faint of tongue! Fiery corn crunch, bold spices, and just the right burn to keep you reaching for more. Dare to dibs? <br></p>",
+    "published_at": "2025-03-11T16:25:03+05:30",
+    "created_at": "2025-03-11T16:25:04+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314754281763,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "104760",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "30.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828646486307,
+        "created_at": "2025-03-11T16:25:05+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49546016096547,
+        "created_at": "2025-05-02T14:02:50+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T14:02:51+05:30",
+        "product_id": 9828646486307,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Amaize_Flamin_Hot_Nachos_Carousal_01_a347f0e2-de99-4abe-8e60-c48432e44f67.jpg?v=1746174771",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49546016129315,
+        "created_at": "2025-05-02T14:02:50+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T14:02:51+05:30",
+        "product_id": 9828646486307,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Amaize_Flamin_Hot_Nachos_Carousal_02_f84933e6-c4de-437c-ab51-7fadd912e046.jpg?v=1746174771",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49546016162083,
+        "created_at": "2025-05-02T14:02:50+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T14:02:51+05:30",
+        "product_id": 9828646486307,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Amaize_Flamin_Hot_Nachos_Carousal_03_25fd72f7-23ed-4360-90a3-3d8caa769db8.jpg?v=1746174771",
+        "width": 1080,
+        "height": 1139
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828645830947,
+    "title": "Amaize Simply Salted Nachos",
+    "handle": "amaize-simply-salted-nachos",
+    "body_html": "<p>Dip it in cheese. Top it with Guacamole. Or munch it straight. Your snack, your rules. These salty, crispy corn nachos taste great in every way. <br></p>",
+    "published_at": "2025-03-11T16:22:53+05:30",
+    "created_at": "2025-03-11T16:22:53+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314707816739,
+        "title": "45g",
+        "option1": "45g",
+        "option2": null,
+        "option3": null,
+        "sku": "104757",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 45,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828645830947,
+        "created_at": "2025-03-11T16:22:55+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49571546038563,
+        "created_at": "2025-05-06T10:41:07+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T10:41:08+05:30",
+        "product_id": 9828645830947,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Amaize_Simply_Salted_Nachos_Carousal_01_0a9093ec-5bd4-46c7-837e-f419aed003fc.jpg?v=1746508268",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571546071331,
+        "created_at": "2025-05-06T10:41:07+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T10:41:08+05:30",
+        "product_id": 9828645830947,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Amaize_Simply_Salted_Nachos_Carousal_02_7e25ea31-7b3c-4082-af26-a29de9210481.jpg?v=1746508268",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571546104099,
+        "created_at": "2025-05-06T10:41:07+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T10:41:08+05:30",
+        "product_id": 9828645830947,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Amaize_Simply_Salted_Nachos_Carousal_03_236bb09a-c240-46e1-8a33-f81331647db1.jpg?v=1746508268",
+        "width": 1080,
+        "height": 1139
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "45g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828556472611,
+    "title": "Banana Wafers - Mast Mari",
+    "handle": "banana-wafers-mast-mari",
+    "body_html": "<p>Crispy banana wafers with a peppery kick – crunchy, spicy, and the perfect snack for your munch cravings!<br></p>",
+    "published_at": "2025-03-11T12:56:57+05:30",
+    "created_at": "2025-03-11T12:56:57+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53310902796579,
+        "title": "27g",
+        "option1": "27g",
+        "option2": null,
+        "option3": null,
+        "sku": "100832",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 27,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828556472611,
+        "created_at": "2025-03-11T12:56:58+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49546001875235,
+        "created_at": "2025-05-02T13:59:44+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T13:59:45+05:30",
+        "product_id": 9828556472611,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Wafers_Banana_Mari_Wafers_Carousal_01_f5209ac7-54c7-4e4d-a1ba-a46b71a3ae5d.jpg?v=1746174585",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49546001842467,
+        "created_at": "2025-05-02T13:59:44+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T13:59:45+05:30",
+        "product_id": 9828556472611,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Wafers_Banana_Mari_Wafers_Carousal_02_7e5f1f94-e520-468d-8f1e-fca15fd81a69.jpg?v=1746174585",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49546001809699,
+        "created_at": "2025-05-02T13:59:43+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T13:59:44+05:30",
+        "product_id": 9828556472611,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Wafers_Banana_Mari_Wafers_Carousal_03_394d545c-ef99-4cf6-bec0-cf3bbd4cceee.jpg?v=1746174584",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "27g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828555915555,
+    "title": "Banana Wafers - Mast Masala",
+    "handle": "banana-wafers-mast-masala",
+    "body_html": "<p>Go bananas with a twist of masala! Crispy, crunchy banana wafers coated with the perfect blend of spices that’ll have you crunching non-stop.<br></p>",
+    "published_at": "2025-03-11T12:55:22+05:30",
+    "created_at": "2025-03-11T12:55:22+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53310866194723,
+        "title": "27g",
+        "option1": "27g",
+        "option2": null,
+        "option3": null,
+        "sku": "100833",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 27,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828555915555,
+        "created_at": "2025-03-11T12:55:23+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545995321635,
+        "created_at": "2025-05-02T13:58:20+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T13:58:21+05:30",
+        "product_id": 9828555915555,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Wafers_Banana_Masala_Wafers_Carousal_01_23517b4a-f68f-48f4-96ec-da4760b8839a.jpg?v=1746174501",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545995354403,
+        "created_at": "2025-05-02T13:58:20+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T13:58:21+05:30",
+        "product_id": 9828555915555,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Wafers_Banana_Masala_Wafers_Carousal_02_04875903-2736-4f0a-aa10-3d3e7478384e.jpg?v=1746174501",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545995288867,
+        "created_at": "2025-05-02T13:58:20+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T13:58:21+05:30",
+        "product_id": 9828555915555,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Wafers_Banana_Masala_Wafers_Carousal_03_c1caf1e7-34c1-4e5c-b529-c20e5d2d5d59.jpg?v=1746174501",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "27g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828574495011,
+    "title": "Bhel Mix",
+    "handle": "bhel-mix",
+    "body_html": "<p>This sweet, spicy, tangy mix is everything you need in a snack and more. It’s got the street-side bhelwala nostalgia. Only better.<br></p>",
+    "published_at": "2025-03-11T13:27:51+05:30",
+    "created_at": "2025-03-11T13:27:51+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311507693859,
+        "title": "45g",
+        "option1": "45g",
+        "option2": null,
+        "option3": null,
+        "sku": "104545",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "10.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828574495011,
+        "created_at": "2025-03-11T13:27:52+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579095752995,
+        "created_at": "2025-05-07T10:47:52+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:47:54+05:30",
+        "product_id": 9828574495011,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Bhel_Mix_Carousal_01_f3376c9d-180f-44a1-947c-0a540ed71e90.jpg?v=1746595074",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579095720227,
+        "created_at": "2025-05-07T10:47:52+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:47:53+05:30",
+        "product_id": 9828574495011,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Bhel_Mix_Carousal_02_ceaccb65-4849-48ed-96b3-e51bb9745f05.jpg?v=1746595073",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579095687459,
+        "created_at": "2025-05-07T10:47:52+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:47:53+05:30",
+        "product_id": 9828574495011,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Bhel_Mix_Carousal_03_345068c5-efc2-4c5c-b9b0-25054171f962.jpg?v=1746595073",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "45g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828560797987,
+    "title": "Chana Dal",
+    "handle": "chana-dal",
+    "body_html": "<p>Sour, spicy chickpeas with a twist of chili and nutmeg—one handful, and you’re hooked! It’s the snack that never lets you stop munching.<br></p>",
+    "published_at": "2025-03-11T13:04:27+05:30",
+    "created_at": "2025-03-11T13:04:27+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311066931491,
+        "title": "230g",
+        "option1": "230g",
+        "option2": null,
+        "option3": null,
+        "sku": "101249",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 230,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828560797987,
+        "created_at": "2025-03-11T13:04:29+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 53311066964259,
+        "title": "500g",
+        "option1": "500g",
+        "option2": null,
+        "option3": null,
+        "sku": "101236",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "90.00",
+        "grams": 500,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828560797987,
+        "created_at": "2025-03-11T13:04:29+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49573982175523,
+        "created_at": "2025-05-06T18:36:48+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T18:36:49+05:30",
+        "product_id": 9828560797987,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chana_Dal_Carousal_01_8fa222c4-b16d-4e6e-b49a-9b0dfc86582b.jpg?v=1746536809",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49573982273827,
+        "created_at": "2025-05-06T18:36:48+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T18:36:49+05:30",
+        "product_id": 9828560797987,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chana_Dal_Carousal_02_f0077e60-931a-4baa-b1b7-4fabc13fdac9.jpg?v=1746536809",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49573982142755,
+        "created_at": "2025-05-06T18:36:47+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T18:36:48+05:30",
+        "product_id": 9828560797987,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chana_Dal_Carousal_03_81542b8b-9374-42dc-bbfe-442416613e44.jpg?v=1746536808",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "230g",
+          "500g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828575379747,
+    "title": "Chana Jor Garam",
+    "handle": "chana-jor-garam",
+    "body_html": "<p>Roasted chickpeas, a sprinkle of spices, and just the right amount of heat. This snack’s simple, satisfying, and always hits the spot.<br></p>",
+    "published_at": "2025-03-11T13:29:19+05:30",
+    "created_at": "2025-03-11T13:29:19+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311540855075,
+        "title": "230g",
+        "option1": "230g",
+        "option2": null,
+        "option3": null,
+        "sku": "104944",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 230,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828575379747,
+        "created_at": "2025-03-11T13:29:20+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579100340515,
+        "created_at": "2025-05-07T10:49:04+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:49:05+05:30",
+        "product_id": 9828575379747,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chana_Jor_Garam_Carousal_01_f822e174-5f72-481e-9ec3-250ea902430c.jpg?v=1746595145",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579100373283,
+        "created_at": "2025-05-07T10:49:04+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:49:05+05:30",
+        "product_id": 9828575379747,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chana_Jor_Garam_Carousal_02_1c10012f-c77f-4382-aa26-0a68ed55e436.jpg?v=1746595145",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579100307747,
+        "created_at": "2025-05-07T10:49:04+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:49:05+05:30",
+        "product_id": 9828575379747,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chana_Jor_Garam_Carousal_03_dfd0abcc-ad6d-456e-9df1-7f766065aefc.jpg?v=1746595145",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "230g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828642619683,
+    "title": "Chataka Pataka -  Tangy Tomato",
+    "handle": "chataka-pataka-tangy-tomato",
+    "body_html": "<p dir=\"ltr\"><span>Seasoned with a tomato twist and special spices, this crunchilious snack is everyone’s binge-munching buddy.</span></p>\n<p> </p>",
+    "published_at": "2025-03-11T16:13:42+05:30",
+    "created_at": "2025-03-11T16:13:42+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314616983843,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "103362",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828642619683,
+        "created_at": "2025-03-11T16:13:43+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49571590406435,
+        "created_at": "2025-05-06T10:48:51+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T10:48:52+05:30",
+        "product_id": 9828642619683,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chataka_Pataka_Tangy_Tomato_Carousal_01_c3441f0c-bbc3-4ade-9fe3-79114c2f72bc.jpg?v=1746508732",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571590996259,
+        "created_at": "2025-05-06T10:48:52+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T10:48:53+05:30",
+        "product_id": 9828642619683,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chataka_Pataka_Tangy_Tomato_Carousal_02_90241f8c-ccbe-4f8d-8a13-d65b79c6d4a3.jpg?v=1746508733",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571590963491,
+        "created_at": "2025-05-06T10:48:52+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T10:48:53+05:30",
+        "product_id": 9828642619683,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chataka_Pataka_Tangy_Tomato_Carousal_03_13755732-1bec-448c-a3e9-a6a1329f5357.jpg?v=1746508733",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828642193699,
+    "title": "Chataka Pataka - Masala Masti",
+    "handle": "chataka-pataka",
+    "body_html": "<p dir=\"ltr\"><span>This chatpata crunch is all masala, all zing, and 100% addictive. Make it your go-to munchie for meetups and movies!</span></p>\n<p> </p>",
+    "published_at": "2025-03-11T16:12:31+05:30",
+    "created_at": "2025-03-11T16:12:31+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314592899363,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "103360",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828642193699,
+        "created_at": "2025-03-11T16:12:32+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 54469623841059,
+        "title": "145g",
+        "option1": "145g",
+        "option2": null,
+        "option3": null,
+        "sku": "103368",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "30.00",
+        "grams": 145,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828642193699,
+        "created_at": "2025-11-05T12:28:36+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49571599450403,
+        "created_at": "2025-05-06T10:50:12+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T10:50:13+05:30",
+        "product_id": 9828642193699,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chataka_Pataka_Masala_Masti_Carousal_01_93fe91f0-758d-483b-98cb-f75f7fca60a2.jpg?v=1746508813",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571599483171,
+        "created_at": "2025-05-06T10:50:12+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T10:50:13+05:30",
+        "product_id": 9828642193699,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chataka_Pataka_Masala_Masti_Carousal_02_09eaf9d1-ce38-4dcd-8245-f3b207b02031.jpg?v=1746508813",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571599515939,
+        "created_at": "2025-05-06T10:50:12+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T10:50:13+05:30",
+        "product_id": 9828642193699,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Chataka_Pataka_Masala_Masti_Carousal_03_26317d41-500d-4940-aa76-97595a805fd7.jpg?v=1746508813",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g",
+          "145g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828566073635,
+    "title": "Classic Sev",
+    "handle": "classic-sev",
+    "body_html": "<p>Thin, crunchy, salty, and timeless! This gram flour sev is the ultimate classic, loved by everyone, everywhere.<br></p>",
+    "published_at": "2025-03-11T13:14:20+05:30",
+    "created_at": "2025-03-11T13:14:20+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311290671395,
+        "title": "400g",
+        "option1": "400g",
+        "option2": null,
+        "option3": null,
+        "sku": "103134",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "75.00",
+        "grams": 400,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828566073635,
+        "created_at": "2025-03-11T13:14:22+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579067965731,
+        "created_at": "2025-05-07T10:39:07+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:39:08+05:30",
+        "product_id": 9828566073635,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Classic_Sev_Carousal_01_c62fb9c0-abf2-4b51-a614-7456f3ffe7aa.jpg?v=1746594548",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579068031267,
+        "created_at": "2025-05-07T10:39:07+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:39:09+05:30",
+        "product_id": 9828566073635,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Classic_Sev_Carousal_02_467e84d0-6e89-42c4-ad3c-681d914ed9b8.jpg?v=1746594549",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579067998499,
+        "created_at": "2025-05-07T10:39:07+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:39:09+05:30",
+        "product_id": 9828566073635,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Classic_Sev_Carousal_03_5cad08e5-4ab3-4572-a12c-c9404c4cf92a.jpg?v=1746594549",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "400g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9845354463523,
+    "title": "Cream Wafers - Crunchy Coconut",
+    "handle": "cream-wafers-crunchy-coconut",
+    "body_html": "<p>Go go coconuts! These wafers with coconut cream are a tropical escape in every bite. Sweet, nutty, and oh-so-addictive.<br></p>",
+    "published_at": "2025-03-27T15:20:35+05:30",
+    "created_at": "2025-03-27T15:20:35+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Confectionery",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53491064570147,
+        "title": "16g",
+        "option1": "16g",
+        "option2": null,
+        "option3": null,
+        "sku": "104935",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "5.00",
+        "grams": 16,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9845354463523,
+        "created_at": "2025-03-27T15:20:36+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49360661905699,
+        "created_at": "2025-04-14T17:37:41+05:30",
+        "position": 1,
+        "updated_at": "2025-04-14T17:37:42+05:30",
+        "product_id": 9845354463523,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_Crunchy_Coconut_Carousal_01.jpg?v=1744632462",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360661774627,
+        "created_at": "2025-04-14T17:37:40+05:30",
+        "position": 2,
+        "updated_at": "2025-04-14T17:37:41+05:30",
+        "product_id": 9845354463523,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_Crunchy_Coconut_Carousal_02.jpg?v=1744632461",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360661807395,
+        "created_at": "2025-04-14T17:37:40+05:30",
+        "position": 3,
+        "updated_at": "2025-04-14T17:37:41+05:30",
+        "product_id": 9845354463523,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_Crunchy_Coconut_Carousal_03.jpg?v=1744632461",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "16g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828641014051,
+    "title": "Cream Wafers - Juicy Strawberry",
+    "handle": "cream-wafers-juicy-strawberry",
+    "body_html": "<p dir=\"ltr\"><span>Berry delicious, berry irresistible! These crispy wafers filled with luscious strawberry cream are all the sweet, fruity goodness you need.</span></p>\n<p> </p>",
+    "published_at": "2025-03-11T16:07:34+05:30",
+    "created_at": "2025-03-11T16:07:34+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Confectionery",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314490302755,
+        "title": "16g",
+        "option1": "16g",
+        "option2": null,
+        "option3": null,
+        "sku": "104933",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "5.00",
+        "grams": 16,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828641014051,
+        "created_at": "2025-03-11T16:07:35+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49360766894371,
+        "created_at": "2025-04-14T17:50:25+05:30",
+        "position": 1,
+        "updated_at": "2025-04-14T17:50:26+05:30",
+        "product_id": 9828641014051,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_-_Juicy_Strawberry_Carousal_01.jpg?v=1744633226",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360766828835,
+        "created_at": "2025-04-14T17:50:25+05:30",
+        "position": 2,
+        "updated_at": "2025-04-14T17:50:26+05:30",
+        "product_id": 9828641014051,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_-_Juicy_Strawberry_Carousal_02.jpg?v=1744633226",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360766959907,
+        "created_at": "2025-04-14T17:50:25+05:30",
+        "position": 3,
+        "updated_at": "2025-04-14T17:50:26+05:30",
+        "product_id": 9828641014051,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_-_Juicy_Strawberry_Carousal_03.jpg?v=1744633226",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "16g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828640293155,
+    "title": "Cream Wafers - Rich Chocolate",
+    "handle": "cream-wafers-rich-chocolate",
+    "body_html": "<p dir=\"ltr\"><span>Need a little chocolate fix? These crispy wafers, generously filled with smooth chocolate cream, are here to make your day. Too good to be true? Nah, just perfect. </span></p>\n<p> </p>",
+    "published_at": "2025-03-11T16:04:23+05:30",
+    "created_at": "2025-03-11T16:04:23+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Confectionery",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314426503459,
+        "title": "16g",
+        "option1": "16g",
+        "option2": null,
+        "option3": null,
+        "sku": "104931",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "5.00",
+        "grams": 16,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828640293155,
+        "created_at": "2025-03-11T16:04:25+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49360831283491,
+        "created_at": "2025-04-14T17:59:06+05:30",
+        "position": 1,
+        "updated_at": "2025-04-14T17:59:07+05:30",
+        "product_id": 9828640293155,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/CreamWafers_RichChocolate_Carousal_01.jpg?v=1744633747",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360831349027,
+        "created_at": "2025-04-14T17:59:06+05:30",
+        "position": 2,
+        "updated_at": "2025-04-14T17:59:08+05:30",
+        "product_id": 9828640293155,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/CreamWafers_RichChocolate_Carousal_02.jpg?v=1744633748",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360831185187,
+        "created_at": "2025-04-14T17:59:06+05:30",
+        "position": 3,
+        "updated_at": "2025-04-14T17:59:07+05:30",
+        "product_id": 9828640293155,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/CreamWafers_RichChocolate_Carousal_03.png?v=1744633747",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "16g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828640719139,
+    "title": "Cream Wafers - Tangy Orange",
+    "handle": "cream-wafers-tangy-orange",
+    "body_html": "<p dir=\"ltr\"><span>Light and crunchy wafers meet zesty sweet orange cream. It’s a snack that’ll brighten your day! </span></p>\n<p> </p>",
+    "published_at": "2025-03-11T16:06:15+05:30",
+    "created_at": "2025-03-11T16:06:15+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Confectionery",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314466054435,
+        "title": "16g",
+        "option1": "16g",
+        "option2": null,
+        "option3": null,
+        "sku": "104932",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "5.00",
+        "grams": 16,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828640719139,
+        "created_at": "2025-03-11T16:06:16+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49360809263395,
+        "created_at": "2025-04-14T17:55:58+05:30",
+        "position": 1,
+        "updated_at": "2025-04-14T17:56:00+05:30",
+        "product_id": 9828640719139,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_Tangy_Orange_Carousal_01.jpg?v=1744633560",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360809230627,
+        "created_at": "2025-04-14T17:55:58+05:30",
+        "position": 2,
+        "updated_at": "2025-04-14T17:56:00+05:30",
+        "product_id": 9828640719139,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_Tangy_Orange_Carousal_02.jpg?v=1744633560",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360809197859,
+        "created_at": "2025-04-14T17:55:58+05:30",
+        "position": 3,
+        "updated_at": "2025-04-14T17:55:59+05:30",
+        "product_id": 9828640719139,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_Tangy_Orange_Carousal_03.jpg?v=1744633559",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "16g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9845351514403,
+    "title": "Cream Wafers - Yummy Vanilla",
+    "handle": "cream-wafers-yummy-vanilla",
+    "body_html": "<p>When in doubt, go vanilla! Crispy wafers with rich vanilla cream, a classic treat always hitting the sweet spot.<br></p>",
+    "published_at": "2025-03-27T15:18:51+05:30",
+    "created_at": "2025-03-27T15:18:51+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Confectionery",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53491060506915,
+        "title": "16g",
+        "option1": "16g",
+        "option2": null,
+        "option3": null,
+        "sku": "104934",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "5.00",
+        "grams": 16,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9845351514403,
+        "created_at": "2025-03-27T15:18:53+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49360700047651,
+        "created_at": "2025-04-14T17:43:07+05:30",
+        "position": 1,
+        "updated_at": "2025-04-14T17:43:08+05:30",
+        "product_id": 9845351514403,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_Yummy_Vanilla_Carousal_01.jpg?v=1744632788",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360701554979,
+        "created_at": "2025-04-14T17:43:16+05:30",
+        "position": 2,
+        "updated_at": "2025-04-14T17:43:17+05:30",
+        "product_id": 9845351514403,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_Yummy_Vanilla_Carousal_02.jpg?v=1744632797",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49360701489443,
+        "created_at": "2025-04-14T17:43:16+05:30",
+        "position": 3,
+        "updated_at": "2025-04-14T17:43:17+05:30",
+        "product_id": 9845351514403,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Cream_Wafers_Yummy_Vanilla_Carousal_03.jpg?v=1744632797",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "16g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9826924200227,
+    "title": "Crunchem - Chaat Chaska",
+    "handle": "crunchem-chaat-chaska-wafers",
+    "body_html": "<p dir=\"ltr\"><span>Mohalle ki chaat ka swaad, ab wafers mein! Seasoned with that iconic chaatwala minty tang, these crispy wafers will make you go, “Issa chaska chaa gaya!”</span></p>\n<p> </p>",
+    "published_at": "2025-03-08T17:05:06+05:30",
+    "created_at": "2025-03-08T17:05:06+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53239085695267,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "100264",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9826924200227,
+        "created_at": "2025-03-08T17:05:07+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545578840355,
+        "created_at": "2025-05-02T12:31:51+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T12:31:52+05:30",
+        "product_id": 9826924200227,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Chaat_Chaska_Wafers_Carousal_01_0097a0df-79db-4f3c-a168-3c0a54fa4f2e.jpg?v=1746169312",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545578807587,
+        "created_at": "2025-05-02T12:31:51+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T12:31:52+05:30",
+        "product_id": 9826924200227,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Chaat_Chaska_Wafers_Carousal_02_cf481455-9dba-4e3f-8916-15c9c1bc6942.jpg?v=1746169312",
+        "width": 831,
+        "height": 844
+      },
+      {
+        "id": 49545578873123,
+        "created_at": "2025-05-02T12:31:51+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T12:31:53+05:30",
+        "product_id": 9826924200227,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Chaat_Chaska_Wafers_Carousal_03_19b74897-d9cd-4b8a-928d-ea8d4c5f0abd.jpg?v=1746169313",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9826924560675,
+    "title": "Crunchem - Cream & Onion",
+    "handle": "crunchem-cream-onion-wafers",
+    "body_html": "<p dir=\"ltr\"><span>Spring onion meets cream. Two great flavours that were meant to crunch together,  sprinkled with our secret herb mix. Keep munching on!</span></p>\n<p> </p>",
+    "published_at": "2025-03-08T17:06:55+05:30",
+    "created_at": "2025-03-08T17:06:55+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53239121903907,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "100259",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9826924560675,
+        "created_at": "2025-03-08T17:06:56+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545954754851,
+        "created_at": "2025-05-02T13:46:51+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T13:46:53+05:30",
+        "product_id": 9826924560675,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Cream_Onion_Wafers_Carousal_01_9fcea2c0-9667-4ce4-b6cf-9ca5a700ddca.jpg?v=1746173813",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545954722083,
+        "created_at": "2025-05-02T13:46:51+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T13:46:52+05:30",
+        "product_id": 9826924560675,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Cream_Onion_Wafers_Carousal_02_89c30e3d-bd8f-42a9-ab45-5bd44c858377.jpg?v=1746173812",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545954689315,
+        "created_at": "2025-05-02T13:46:51+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T13:46:52+05:30",
+        "product_id": 9826924560675,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Cream_Onion_Wafers_Carousal_03_43327333-5761-43ea-81ea-e570876c3e32.jpg?v=1746173812",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9826923774243,
+    "title": "Crunchem - Masala Masti",
+    "handle": "crunchem-masala-masti-wafers",
+    "body_html": "<p dir=\"ltr\"><span>Get ready to binge on the snack that’s got everyone hooked. Bold desi spices, a kick of heat, and a crispy crunch that’ll make you go ‘just one more!’</span></p>",
+    "published_at": "2025-03-08T17:00:02+05:30",
+    "created_at": "2025-03-08T17:00:02+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53238984638755,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "100257",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9826923774243,
+        "created_at": "2025-03-08T17:00:04+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545566257443,
+        "created_at": "2025-05-02T12:28:44+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T12:28:45+05:30",
+        "product_id": 9826923774243,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Masala_Masti_Wafers_Carousal_01_4ec160eb-3668-495f-9a39-8bcd2b67158f.jpg?v=1746169125",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545566224675,
+        "created_at": "2025-05-02T12:28:44+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T12:28:45+05:30",
+        "product_id": 9826923774243,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Masala_Masti_Wafers_Carousal_02_905a8e75-f865-4314-a02c-568bd08b8a26.jpg?v=1746169125",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545566191907,
+        "created_at": "2025-05-02T12:28:44+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T12:28:45+05:30",
+        "product_id": 9826923774243,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Masala_Masti_Wafers_Carousal_03_2f95318f-6d56-4440-8dac-059f825579d2.jpg?v=1746169125",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9826926592291,
+    "title": "Crunchem - Peri Peri",
+    "handle": "crunchem-peri-peri-wafers",
+    "body_html": "<p dir=\"ltr\"><span>Turn up the heat with these fiery wafers! Coated in the perfect Peri Peri spice mix, they’re made for those who like it hot and happening.</span></p>\n<p> </p>",
+    "published_at": "2025-03-08T17:10:40+05:30",
+    "created_at": "2025-03-08T17:10:40+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53239193305379,
+        "title": "32g",
+        "option1": "32g",
+        "option2": null,
+        "option3": null,
+        "sku": "100265",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 32,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9826926592291,
+        "created_at": "2025-03-08T17:10:42+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545963962659,
+        "created_at": "2025-05-02T13:49:25+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T13:49:26+05:30",
+        "product_id": 9826926592291,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Peri_Peri_Wafers_Carousal_01_b9bbb4d9-f5bd-4550-8d33-41bfbf96597f.jpg?v=1746173966",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545963995427,
+        "created_at": "2025-05-02T13:49:25+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T13:49:27+05:30",
+        "product_id": 9826926592291,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Peri_Peri_Wafers_Carousal_02_63d25c7a-ceec-4015-afd5-ac691f94534f.jpg?v=1746173967",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545963929891,
+        "created_at": "2025-05-02T13:49:25+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T13:49:26+05:30",
+        "product_id": 9826926592291,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Peri_Peri_Wafers_Carousal_03_00111a58-7273-41f3-b97a-acc021e41799.jpg?v=1746173966",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "32g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9826925510947,
+    "title": "Crunchem - Pizzy Masala",
+    "handle": "crunchem-pizzy-masala-wafers",
+    "body_html": "<p dir=\"ltr\"><span>Italy meets India in this pizza-inspired masala blend. With a kick of pepper, herby oregano, and cheese, these pizzalicious wafers are absolute modern genius!</span></p>\n<p> </p>",
+    "published_at": "2025-03-08T17:08:24+05:30",
+    "created_at": "2025-03-08T17:08:24+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53239150674211,
+        "title": "32g",
+        "option1": "32g",
+        "option2": null,
+        "option3": null,
+        "sku": "100260",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 32,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9826925510947,
+        "created_at": "2025-03-08T17:08:25+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545958555939,
+        "created_at": "2025-05-02T13:48:13+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T13:48:14+05:30",
+        "product_id": 9826925510947,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Pizzy_Masala_Wafers_Carousal_01_f347cd7d-bf4b-4e1f-ba47-dff2f2bf4703.jpg?v=1746173894",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545958523171,
+        "created_at": "2025-05-02T13:48:13+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T13:48:14+05:30",
+        "product_id": 9826925510947,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Pizzy_Masala_Wafers_Carousal_02_df3ca0db-9c82-452f-8bb0-e902e38753c1.jpg?v=1746173894",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545958490403,
+        "created_at": "2025-05-02T13:48:13+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T13:48:14+05:30",
+        "product_id": 9826925510947,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem__Pizzy_Masala_Wafers_Carousal_03_80d31b27-6e0a-4c0d-b46b-0284ec490dea.jpg?v=1746173894",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "32g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9847745544483,
+    "title": "Crunchem - Simply Salted",
+    "handle": "crunchem-simply-salted",
+    "body_html": "<p>Crispy, crunchy, and oh-so-classic! Made with the choicest farm-fresh potatoes and a dash of iodised salt, these wafers are proof that simplicity never goes out of style. <br></p>",
+    "published_at": "2025-03-30T19:40:43+05:30",
+    "created_at": "2025-03-30T19:40:43+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53499028472099,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "100255",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9847745544483,
+        "created_at": "2025-03-30T19:40:44+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545969467683,
+        "created_at": "2025-05-02T13:50:44+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T13:50:45+05:30",
+        "product_id": 9847745544483,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Simply_Salted_Wafers_Carousal_01_3ceb57f9-b287-46d2-a4f2-824e75d1ee58.jpg?v=1746174045",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545969402147,
+        "created_at": "2025-05-02T13:50:44+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T13:50:45+05:30",
+        "product_id": 9847745544483,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Simply_Salted_Wafers_Carousal_02_06891af0-be86-4afb-839a-0c2a8f05bd20.jpg?v=1746174045",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545969434915,
+        "created_at": "2025-05-02T13:50:44+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T13:50:45+05:30",
+        "product_id": 9847745544483,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Simply_Salted_Wafers_Carousal_03_4e846241-6224-43a0-8fa4-4f4403e6216a.jpg?v=1746174045",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9826924036387,
+    "title": "Crunchem - Tomato Twist",
+    "handle": "crunchem-tomato-twist-wafers",
+    "body_html": "<p dir=\"ltr\"><span>Thoda tangy, thoda spicy, and pura tasty! Juicy tomato flavour meets crispy wafer crunch - this snack is sweet, spicy, and seriously addictive.</span></p>\n<p> </p>",
+    "published_at": "2025-03-08T17:03:37+05:30",
+    "created_at": "2025-03-08T17:03:37+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53239055548707,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "100262",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9826924036387,
+        "created_at": "2025-03-08T17:03:38+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545570386211,
+        "created_at": "2025-05-02T12:29:37+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T12:29:39+05:30",
+        "product_id": 9826924036387,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Tomato_Twist_Wafers_Carousal_01_cc8a6840-9a84-427a-8f59-5a8bc4002774.jpg?v=1746169179",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545570353443,
+        "created_at": "2025-05-02T12:29:37+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T12:29:38+05:30",
+        "product_id": 9826924036387,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Tomato_Twist_Wafers_Carousal_02_a4cb2277-b07a-4d7a-bcc8-73caf7ad9421.jpg?v=1746169178",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545570320675,
+        "created_at": "2025-05-02T12:29:37+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T12:29:38+05:30",
+        "product_id": 9826924036387,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Tomato_Twist_Wafers_Carousal_03_e9135d37-eadb-4e08-8e53-cd5a0eff26bc.jpg?v=1746169178",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828497490211,
+    "title": "Crunchex - Chilli Lemon",
+    "handle": "crunchex-chilli-lemon",
+    "body_html": "<p dir=\"ltr\"><span>Here’s a binge-worthy snack that’s ekdam hakte! Chilli gives you the heat, lemon gives you the zing – and together, they create a crunch you can’t resist.</span></p>\n<p> </p>",
+    "published_at": "2025-03-11T10:55:04+05:30",
+    "created_at": "2025-03-11T10:55:04+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53308699476259,
+        "title": "32g",
+        "option1": "32g",
+        "option2": null,
+        "option3": null,
+        "sku": "100274",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 32,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828497490211,
+        "created_at": "2025-03-11T10:55:05+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545984966947,
+        "created_at": "2025-05-02T13:55:09+05:30",
+        "position": 1,
+        "updated_at": "2025-05-30T09:53:02+05:30",
+        "product_id": 9828497490211,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Chilli_Lemon_Wafers_Carousal_01_7a8ce67d-cfba-41ee-95d4-4c4ef68f10c6.jpg?v=1748578982",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545984835875,
+        "created_at": "2025-05-02T13:55:08+05:30",
+        "position": 2,
+        "updated_at": "2025-05-30T09:53:02+05:30",
+        "product_id": 9828497490211,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Chilli_Lemon_Wafers_Carousal_02_4883c907-940b-4050-a3ce-59a5cef30df5.jpg?v=1748578982",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545984934179,
+        "created_at": "2025-05-02T13:55:09+05:30",
+        "position": 3,
+        "updated_at": "2025-05-30T09:53:02+05:30",
+        "product_id": 9828497490211,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Chilli_Lemon_Wafers_Carousal_03_005d5698-a7c3-4587-99f3-7ca15ede47e7.jpg?v=1748578982",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "32g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9826928099619,
+    "title": "Crunchex - Chilli Tadka",
+    "handle": "crunchex-chilli-tadka",
+    "body_html": "<p dir=\"ltr\"><span>Totally tadka-tastic! These hand-cooked style wafers bring the zing, the spice, and the perfect crunch—all in one bite. It’s a fan favourite!</span></p>\n<p> </p>",
+    "published_at": "2025-03-08T17:23:17+05:30",
+    "created_at": "2025-03-08T17:23:17+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53239372644643,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "100272",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9826928099619,
+        "created_at": "2025-03-08T17:23:18+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545980870947,
+        "created_at": "2025-05-02T13:53:48+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T13:53:50+05:30",
+        "product_id": 9826928099619,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_ChilliTadkaWafers_Carousal_01.jpg?v=1746174230",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545980936483,
+        "created_at": "2025-05-02T13:53:48+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T13:53:50+05:30",
+        "product_id": 9826928099619,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_ChilliTadkaWafers_Carousal_02.jpg?v=1746174230",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545980903715,
+        "created_at": "2025-05-02T13:53:48+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T13:53:50+05:30",
+        "product_id": 9826928099619,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_ChilliTadkaWafers_Carousal_03.jpg?v=1746174230",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9826928001315,
+    "title": "Crunchex - Simply Salted",
+    "handle": "crunchex-simply-salted-1",
+    "body_html": "<p dir=\"ltr\"><span>Simple, subtle, and satisfyingly crispy! Made with thinly sliced potatoes and a pinch of iodised salt, these hand-cooked style wafers are a classic.</span></p>\n<p> </p>",
+    "published_at": "2025-03-08T17:20:02+05:30",
+    "created_at": "2025-03-08T17:20:02+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53239306289443,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "100270",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9826928001315,
+        "created_at": "2025-03-08T17:20:03+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545974841635,
+        "created_at": "2025-05-02T13:52:12+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T13:52:14+05:30",
+        "product_id": 9826928001315,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Simply_Salted_Wafers_Carousal_01_0e15af13-b08d-49c7-b86a-878bb5c1d856.jpg?v=1746174134",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545974808867,
+        "created_at": "2025-05-02T13:52:12+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T13:52:13+05:30",
+        "product_id": 9826928001315,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Simply_Salted_Wafers_Carousal_02_95e694d8-ce86-47d4-ab25-2dfc653a9e87.jpg?v=1746174133",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545974874403,
+        "created_at": "2025-05-02T13:52:13+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T13:52:14+05:30",
+        "product_id": 9826928001315,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Crunchem_Simply_Salted_Wafers_Carousal_03_a3000059-b63e-4a8d-b2ba-4fddb3ba6034.jpg?v=1746174134",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828639310115,
+    "title": "Dumbar Peanut Chikki (Box of 20)",
+    "handle": "dumbar-peanut-chikki",
+    "body_html": "<p dir=\"ltr\"><span>Nut-thing beats this classic sweet affair! A crunchy peanut-jaggery combo that'll stick to your heart and have you coming back for more! </span></p>",
+    "published_at": "2025-03-11T16:01:40+05:30",
+    "created_at": "2025-03-11T16:01:40+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Confectionery",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314382889251,
+        "title": "19g",
+        "option1": "19g",
+        "option2": null,
+        "option3": null,
+        "sku": "104409",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "100.00",
+        "grams": 19,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828639310115,
+        "created_at": "2025-03-11T16:02:26+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579159257379,
+        "created_at": "2025-05-07T11:07:02+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T11:07:03+05:30",
+        "product_id": 9828639310115,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Dumbar_Peanut_Chikki_Carousal_01_f92f24bd-4992-4957-a726-ca27b30b0a08.jpg?v=1746596223",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579159322915,
+        "created_at": "2025-05-07T11:07:02+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T11:07:03+05:30",
+        "product_id": 9828639310115,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Dumbar_Peanut_Chikki_Carousal_02_81e29546-fc73-4c8c-9332-7d1d5a9a1d43.jpg?v=1746596223",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579159290147,
+        "created_at": "2025-05-07T11:07:02+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T11:07:03+05:30",
+        "product_id": 9828639310115,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Dumbar_Peanut_Chikki_Carousal_03_8d3c1ac2-b85b-4801-b6fa-ee0bf18ff012.jpg?v=1746596223",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "19g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828575969571,
+    "title": "Farali Chevdo",
+    "handle": "farali-chevdo",
+    "body_html": "<p dir=\"ltr\"><span>Light, savory bites packed with a burst of spice—just the thing to keep you munching and moving!</span></p>\n<p> </p>",
+    "published_at": "2025-03-11T13:30:35+05:30",
+    "created_at": "2025-03-11T13:30:35+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311569592611,
+        "title": "235g",
+        "option1": "235g",
+        "option2": null,
+        "option3": null,
+        "sku": "101047",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 235,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828575969571,
+        "created_at": "2025-03-11T13:30:36+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 53311569625379,
+        "title": "450g",
+        "option1": "450g",
+        "option2": null,
+        "option3": null,
+        "sku": "101078",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "90.00",
+        "grams": 450,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828575969571,
+        "created_at": "2025-03-11T13:30:36+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50391735959843,
+        "created_at": "2025-08-28T16:29:25+05:30",
+        "position": 1,
+        "updated_at": "2025-08-28T16:29:26+05:30",
+        "product_id": 9828575969571,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Farali_Chevdo_Carousal_01_3990cb2b-6557-4c04-a35b-d3445c112ceb.jpg?v=1756378766",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50391735992611,
+        "created_at": "2025-08-28T16:29:25+05:30",
+        "position": 2,
+        "updated_at": "2025-08-28T16:29:26+05:30",
+        "product_id": 9828575969571,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Farali_Chevdo_Carousal_02_8a2cc00a-a100-468e-a84a-64973b954570.jpg?v=1756378766",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50391735927075,
+        "created_at": "2025-08-28T16:29:25+05:30",
+        "position": 3,
+        "updated_at": "2025-08-28T16:29:26+05:30",
+        "product_id": 9828575969571,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Farali_Chevdo_Carousal_03_ee326073-d8f9-49a4-a63f-70f4d3252ca9.jpg?v=1756378766",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "235g",
+          "450g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828566958371,
+    "title": "Gathiya",
+    "handle": "gathiya",
+    "body_html": "<p>This is a golden snack you can never get enough of. Crispy, flavorful, light, and just the right balance of spice.<br></p>",
+    "published_at": "2025-03-11T13:15:38+05:30",
+    "created_at": "2025-03-11T13:15:38+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311315837219,
+        "title": "300g",
+        "option1": "300g",
+        "option2": null,
+        "option3": null,
+        "sku": "103138",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "55.00",
+        "grams": 300,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828566958371,
+        "created_at": "2025-03-11T13:15:40+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579072553251,
+        "created_at": "2025-05-07T10:40:31+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:40:33+05:30",
+        "product_id": 9828566958371,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Gathiya_Carousal_01_b77c88f7-e724-46b8-ab76-2ce50128e8a9.jpg?v=1746594633",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579072520483,
+        "created_at": "2025-05-07T10:40:31+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:40:33+05:30",
+        "product_id": 9828566958371,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Gathiya_Carousal_02_47f1873d-f15b-40fc-9bc6-d966b8b80f5b.jpg?v=1746594633",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579072487715,
+        "created_at": "2025-05-07T10:40:31+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:40:32+05:30",
+        "product_id": 9828566958371,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Gathiya_Carousal_03_588b5c0b-eafc-4949-a1a3-a947017a9166.jpg?v=1746594632",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "300g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828641440035,
+    "title": "Gippi Masala Noodles",
+    "handle": "gippi-noodles",
+    "body_html": "<p dir=\"ltr\"><span>Noodles, but not as you know them. They’ve got the fire, the zing, and a masaledar punch, making it your best gossip session snack!</span></p>\n<p> </p>",
+    "published_at": "2025-03-11T16:09:41+05:30",
+    "created_at": "2025-03-11T16:09:41+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Noodles",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314533556515,
+        "title": "260g",
+        "option1": "260g",
+        "option2": null,
+        "option3": null,
+        "sku": "104983",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49579189371171,
+          "product_id": 9828641440035,
+          "position": 1,
+          "created_at": "2025-05-07T11:15:28+05:30",
+          "updated_at": "2025-05-07T11:15:29+05:30",
+          "alt": "280g",
+          "width": 800,
+          "height": 844,
+          "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Gippi_-_Masala_Noodles_Carousal_01_2f4fb177-53be-46b7-9616-0d9784b2fd3b.jpg?v=1746596729",
+          "variant_ids": [
+            53314533556515
+          ]
+        },
+        "available": true,
+        "price": "40.00",
+        "grams": 260,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828641440035,
+        "created_at": "2025-03-11T16:09:42+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 53314533589283,
+        "title": "390g",
+        "option1": "390g",
+        "option2": null,
+        "option3": null,
+        "sku": "104982",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49579189436707,
+          "product_id": 9828641440035,
+          "position": 3,
+          "created_at": "2025-05-07T11:15:28+05:30",
+          "updated_at": "2025-05-07T11:15:29+05:30",
+          "alt": "420g",
+          "width": 800,
+          "height": 844,
+          "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Gippi_-_Masala_Noodles_Carousal_03_27558cb5-e2b8-4455-9b18-17ec43783994.jpg?v=1746596729",
+          "variant_ids": [
+            53314533589283
+          ]
+        },
+        "available": false,
+        "price": "55.00",
+        "grams": 390,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828641440035,
+        "created_at": "2025-03-11T16:09:42+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579189371171,
+        "created_at": "2025-05-07T11:15:28+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T11:15:29+05:30",
+        "product_id": 9828641440035,
+        "variant_ids": [
+          53314533556515
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Gippi_-_Masala_Noodles_Carousal_01_2f4fb177-53be-46b7-9616-0d9784b2fd3b.jpg?v=1746596729",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579189403939,
+        "created_at": "2025-05-07T11:15:28+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T11:15:29+05:30",
+        "product_id": 9828641440035,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Gippi_-_Masala_Noodles_Carousal_02._9d0b88b2-0885-44ac-900d-ca94a6dc858c.jpg?v=1746596729",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579189436707,
+        "created_at": "2025-05-07T11:15:28+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T11:15:29+05:30",
+        "product_id": 9828641440035,
+        "variant_ids": [
+          53314533589283
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Gippi_-_Masala_Noodles_Carousal_03_27558cb5-e2b8-4455-9b18-17ec43783994.jpg?v=1746596729",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "260g",
+          "390g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828645110051,
+    "title": "Gippi PopRings - Cheese Chilli",
+    "handle": "poprings-yummy-cheese",
+    "body_html": "<p>It’s cheese o'clock. Time to put a ring on your finger and gobble it! Enjoy crispy light and cheesy cheddar rings. <br></p>",
+    "published_at": "2025-03-11T16:20:32+05:30",
+    "created_at": "2025-03-11T16:20:32+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314659287331,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "104630",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828645110051,
+        "created_at": "2025-03-11T16:20:33+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50391729570083,
+        "created_at": "2025-08-28T16:24:33+05:30",
+        "position": 1,
+        "updated_at": "2025-08-28T16:27:25+05:30",
+        "product_id": 9828645110051,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/PopRings_Cheese_Chilli_Carousal_01.jpg?v=1756378645",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50391729930531,
+        "created_at": "2025-08-28T16:24:50+05:30",
+        "position": 2,
+        "updated_at": "2025-08-28T16:27:25+05:30",
+        "product_id": 9828645110051,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/PopRings_Cheese_Chilli_Carousal_02.jpg?v=1756378645",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50391729340707,
+        "created_at": "2025-08-28T16:24:28+05:30",
+        "position": 3,
+        "updated_at": "2025-08-28T16:27:25+05:30",
+        "product_id": 9828645110051,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/PopRings_Cheese_Chilli_Carousal_03.jpg?v=1756378645",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828644028707,
+    "title": "Gippi PopRings - Masala",
+    "handle": "poprings-masala",
+    "body_html": "<p>Ring, ring! It’s the flavour calling! These crispy light rings are all about a little zing, and a lot of spice. Once you pop, you won’t want to stop.<br></p>",
+    "published_at": "2025-03-11T16:18:02+05:30",
+    "created_at": "2025-03-11T16:18:02+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314645164323,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "104628",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828644028707,
+        "created_at": "2025-03-11T16:18:03+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50126176649507,
+        "created_at": "2025-07-22T15:50:13+05:30",
+        "position": 1,
+        "updated_at": "2025-07-22T15:53:13+05:30",
+        "product_id": 9828644028707,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/PopRings_Masala_Carousal_01_48065031-dbb3-41b6-9e8c-ddcd98049cd2.jpg?v=1753179793",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571574120739,
+        "created_at": "2025-05-06T10:45:53+05:30",
+        "position": 2,
+        "updated_at": "2025-07-22T15:53:13+05:30",
+        "product_id": 9828644028707,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/PopRings_Masala_Carousal_02_5db91769-de8e-478f-8b16-47e9a419738d.jpg?v=1753179793",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50126176616739,
+        "created_at": "2025-07-22T15:50:13+05:30",
+        "position": 3,
+        "updated_at": "2025-07-22T15:50:14+05:30",
+        "product_id": 9828644028707,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/PopRings_Masala_Carousal_03_0eeaf29c-4962-453b-a6d3-137b59ddaf31.jpg?v=1753179614",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10060313690403,
+    "title": "Gippi Tornado",
+    "handle": "gippi-tornado",
+    "body_html": "<p>A swirl of fun and flavour - playful crunch with a bold kick that spins your taste buds happy.</p>",
+    "published_at": "2025-11-26T10:57:51+05:30",
+    "created_at": "2025-11-17T11:47:00+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 54505094512931,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "104637",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10060313690403,
+        "created_at": "2025-11-17T11:47:01+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50857307603235,
+        "created_at": "2025-11-17T11:45:17+05:30",
+        "position": 1,
+        "updated_at": "2025-11-17T11:45:19+05:30",
+        "product_id": 10060313690403,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/GippiTornado_Carousal_01.jpg?v=1763360119",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857307636003,
+        "created_at": "2025-11-17T11:45:17+05:30",
+        "position": 2,
+        "updated_at": "2025-11-17T11:45:19+05:30",
+        "product_id": 10060313690403,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/GippiTornado_Carousal_02.jpg?v=1763360119",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857307668771,
+        "created_at": "2025-11-17T11:45:17+05:30",
+        "position": 3,
+        "updated_at": "2025-11-17T11:45:19+05:30",
+        "product_id": 10060313690403,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/GippiTornado_Carousal_03.jpg?v=1763360119",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828579934499,
+    "title": "Katak Batak - Chilli Lemon",
+    "handle": "katak-batak-chilli-lemon",
+    "body_html": "<p dir=\"ltr\"><span>Get ready for a chilli tango with a lemony twist! Crunchy peanuts with the perfect balance of spice and zest</span></p>\n<p> </p>",
+    "published_at": "2025-03-11T13:41:29+05:30",
+    "created_at": "2025-03-11T13:41:29+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311792185635,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "102109",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828579934499,
+        "created_at": "2025-03-11T13:41:30+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579131896099,
+        "created_at": "2025-05-07T10:58:36+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:58:38+05:30",
+        "product_id": 9828579934499,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Katak_Batak_-_Chilli_Lemon_Carousal_01_d440c218-e344-49d9-93ee-4b86cae0a2ed.jpg?v=1746595718",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579131863331,
+        "created_at": "2025-05-07T10:58:36+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:58:37+05:30",
+        "product_id": 9828579934499,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Katak_Batak_-_Chilli_Lemon_Carousal_02_f6bb3702-b60d-4a61-98dc-7f64c34c9c49.jpg?v=1746595717",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579131830563,
+        "created_at": "2025-05-07T10:58:36+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:58:37+05:30",
+        "product_id": 9828579934499,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Katak_Batak_-_Chilli_Lemon_Carousal_03_2eaec295-54c3-457e-bdb5-924a7de29813.jpg?v=1746595717",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828637802787,
+    "title": "Khakhra Jeera",
+    "handle": "khakhra-jeera",
+    "body_html": "<p>Crunch with a cumin twist. This is a timeless, savory classic from Gujarat.<br></p>",
+    "published_at": "2025-03-11T15:59:26+05:30",
+    "created_at": "2025-03-11T15:59:26+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314316599587,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "104003",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828637802787,
+        "created_at": "2025-03-11T15:59:27+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579145199907,
+        "created_at": "2025-05-07T11:03:16+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T11:03:17+05:30",
+        "product_id": 9828637802787,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Jeera_Carousal_01_7093676b-167e-4d98-a26e-d6798a02bc2c.jpg?v=1746595997",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579145232675,
+        "created_at": "2025-05-07T11:03:16+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T11:03:17+05:30",
+        "product_id": 9828637802787,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Jeera_Carousal_02_2dad4040-e51c-48d3-9ea3-2b59a4f952e3.jpg?v=1746595997",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579145167139,
+        "created_at": "2025-05-07T11:03:15+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T11:03:17+05:30",
+        "product_id": 9828637802787,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Jeera_Carousal_03_efaf54ba-ffb3-44c6-bc74-c449097aff79.jpg?v=1746595997",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828637049123,
+    "title": "Khakhra Masala",
+    "handle": "khakhra-masala",
+    "body_html": "<p>Taste the masala medley. Gujarati spices meets the satisfying crunch in every delightful bite.<br></p>",
+    "published_at": "2025-03-11T15:58:15+05:30",
+    "created_at": "2025-03-11T15:58:15+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314291794211,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "104001",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828637049123,
+        "created_at": "2025-03-11T15:58:17+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579139367203,
+        "created_at": "2025-05-07T11:02:03+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T11:02:04+05:30",
+        "product_id": 9828637049123,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Masala_Carousal_01_580a95da-929a-4327-a4c7-1c9449ed4a2e.jpg?v=1746595924",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579139334435,
+        "created_at": "2025-05-07T11:02:03+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T11:02:04+05:30",
+        "product_id": 9828637049123,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Masala_Carousal_02_2bbd6bcb-6604-4904-b50e-1ef9e7b4b254.jpg?v=1746595924",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579139399971,
+        "created_at": "2025-05-07T11:02:03+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T11:02:04+05:30",
+        "product_id": 9828637049123,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Masala_Carousal_03_e9cf75bb-f219-4002-aadc-c6479dfebccd.jpg?v=1746595924",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828638654755,
+    "title": "Khakhra Methi",
+    "handle": "khakhra-methi",
+    "body_html": "<p>Fenugreek, but make it fabulous. One bite and you’ll understand why it’s everyone’s favourite in Gujarat, and beyond.<br></p>",
+    "published_at": "2025-03-11T16:00:39+05:30",
+    "created_at": "2025-03-11T16:00:39+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314342813987,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "104002",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828638654755,
+        "created_at": "2025-03-11T16:00:40+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579151655203,
+        "created_at": "2025-05-07T11:05:09+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T11:05:11+05:30",
+        "product_id": 9828638654755,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Methi_Carousal_01_26c0ae71-8cd5-49c7-b205-022ca72ff618.jpg?v=1746596111",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579151622435,
+        "created_at": "2025-05-07T11:05:09+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T11:05:11+05:30",
+        "product_id": 9828638654755,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Methi_Carousal_02_df0a725a-0a08-49ab-a919-d6a2b3a11bb3.jpg?v=1746596111",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579151589667,
+        "created_at": "2025-05-07T11:05:09+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T11:05:10+05:30",
+        "product_id": 9828638654755,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Methi_Carousal_03_32454cc5-9f1e-4629-ac46-3565305f5822.jpg?v=1746596110",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828580458787,
+    "title": "Khakhra Plain",
+    "handle": "khakhra-plain",
+    "body_html": "<p>Pure crunch. No distractions. Just the crispiness you crave, with a side of nostalgia. Enjoy the classic Gujarati taste and satisfying crunch of wheat!<br></p>",
+    "published_at": "2025-03-11T13:42:40+05:30",
+    "created_at": "2025-03-11T13:42:40+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311817220387,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "104000",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828580458787,
+        "created_at": "2025-03-11T13:42:41+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579517935907,
+        "created_at": "2025-05-07T12:56:50+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T12:56:52+05:30",
+        "product_id": 9828580458787,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Plain_Carousal_01.jpg?v=1746602812",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579517968675,
+        "created_at": "2025-05-07T12:56:51+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T12:56:52+05:30",
+        "product_id": 9828580458787,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Plain_Carousal_02.jpg?v=1746602812",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579518001443,
+        "created_at": "2025-05-07T12:56:51+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T12:56:52+05:30",
+        "product_id": 9828580458787,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khakhra_Plain_Carousal_03.jpg?v=1746602812",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828579049763,
+    "title": "Khatta Mitha Mix",
+    "handle": "khatta-mitha-mix",
+    "body_html": "<p>Har ghar ka favourite namkeen. Perfectly balanced with crunchy nuts, puffed rice, and a spice kick.</p>",
+    "published_at": "2025-03-11T13:39:08+05:30",
+    "created_at": "2025-03-11T13:39:08+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311743918371,
+        "title": "500g",
+        "option1": "500g",
+        "option2": null,
+        "option3": null,
+        "sku": "102923",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "90.00",
+        "grams": 500,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828579049763,
+        "created_at": "2025-03-11T13:39:10+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 53311743951139,
+        "title": "230g",
+        "option1": "230g",
+        "option2": null,
+        "option3": null,
+        "sku": "102940",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 230,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828579049763,
+        "created_at": "2025-03-11T13:39:10+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579128127779,
+        "created_at": "2025-05-07T10:57:16+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:57:26+05:30",
+        "product_id": 9828579049763,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khatta_Mitha_Mix_Carousal_01_fb11e26c-68e7-412f-99d2-549f9fe10767.jpg?v=1746595646",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579128095011,
+        "created_at": "2025-05-07T10:57:16+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:57:26+05:30",
+        "product_id": 9828579049763,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khatta_Mitha_Mix_Carousal_02_17ffd9d7-f93e-4c51-8331-bd1076b93b1c.jpg?v=1746595646",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579128160547,
+        "created_at": "2025-05-07T10:57:16+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:57:18+05:30",
+        "product_id": 9828579049763,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Khatta_Mitha_Mix_Carousal_03_ccb7bde5-844a-49c2-a4e5-f0acec964c3a.jpg?v=1746595638",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "500g",
+          "230g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10060305531171,
+    "title": "Khichiya Papad - Wheat Flour",
+    "handle": "khichiya-papad-wheat-flour",
+    "body_html": "<p>Prepared using premium wheat flour, a wholesome papad with a satisfying crunch and earthy flavor.</p>",
+    "published_at": "2025-11-26T11:04:38+05:30",
+    "created_at": "2025-11-17T11:16:14+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 54505088483619,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "104971",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10060305531171,
+        "created_at": "2025-11-17T11:37:02+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50857250488611,
+        "created_at": "2025-11-17T11:18:18+05:30",
+        "position": 1,
+        "updated_at": "2025-11-17T11:18:26+05:30",
+        "product_id": 10060305531171,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/KhichiyaPapad-WheatFlour_Carousal_01.jpg?v=1763358506",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857250521379,
+        "created_at": "2025-11-17T11:18:18+05:30",
+        "position": 2,
+        "updated_at": "2025-11-17T11:18:26+05:30",
+        "product_id": 10060305531171,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/KhichiyaPapad-WheatFlour_Carousal_02.jpg?v=1763358506",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857250554147,
+        "created_at": "2025-11-17T11:18:18+05:30",
+        "position": 3,
+        "updated_at": "2025-11-17T11:18:26+05:30",
+        "product_id": 10060305531171,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/KhichiyaPapad-WheatFlour_Carousal_03.jpg?v=1763358506",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10060304744739,
+    "title": "Khichiya Papad – Rice Flour",
+    "handle": "khichiya-papad-rice-flour",
+    "body_html": "<p>Light as air and melt-in-your-mouth yum - a delicate crunch that brings the charm of tradition with a crunch you can’t stop chasing.</p>",
+    "published_at": "2025-11-26T11:08:07+05:30",
+    "created_at": "2025-11-17T11:11:35+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 54505087336739,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "104972",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10060304744739,
+        "created_at": "2025-11-17T11:34:48+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50857247080739,
+        "created_at": "2025-11-17T11:14:08+05:30",
+        "position": 1,
+        "updated_at": "2025-11-17T11:14:26+05:30",
+        "product_id": 10060304744739,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/KhichiyaPapad-RiceFlour_Carousal_01.jpg?v=1763358266",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857247113507,
+        "created_at": "2025-11-17T11:14:08+05:30",
+        "position": 2,
+        "updated_at": "2025-11-17T11:14:26+05:30",
+        "product_id": 10060304744739,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/KhichiyaPapad-RiceFlour_Carousal_02.jpg?v=1763358266",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857247146275,
+        "created_at": "2025-11-17T11:14:08+05:30",
+        "position": 3,
+        "updated_at": "2025-11-17T11:14:26+05:30",
+        "product_id": 10060304744739,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/KhichiyaPapad-RiceFlour_Carousal_03.jpg?v=1763358266",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828572004643,
+    "title": "Masala Sev Murmura",
+    "handle": "masala-sev-murmura",
+    "body_html": "<p>Thoda puffed rice, thoda sev, thoda masala, aur pura chili-garlic ka tadka! One handful, and you’ll be hooked.<br></p>",
+    "published_at": "2025-03-11T13:22:53+05:30",
+    "created_at": "2025-03-11T13:22:53+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311402869027,
+        "title": "240g",
+        "option1": "240g",
+        "option2": null,
+        "option3": null,
+        "sku": "104560",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 240,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828572004643,
+        "created_at": "2025-03-11T13:22:54+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50126172356899,
+        "created_at": "2025-07-22T15:48:38+05:30",
+        "position": 1,
+        "updated_at": "2025-07-22T15:49:28+05:30",
+        "product_id": 9828572004643,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Masala_Sev_Murmura_Carousal_01_24cba5d2-27f2-420a-953e-689cb63a1877.jpg?v=1753179568",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579087331619,
+        "created_at": "2025-05-07T10:46:18+05:30",
+        "position": 2,
+        "updated_at": "2025-07-22T15:49:28+05:30",
+        "product_id": 9828572004643,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Masala_Sev_Murmura_Carousal_02_434a0cd8-8dd8-49b3-a513-27c052b69014.jpg?v=1753179568",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50126172455203,
+        "created_at": "2025-07-22T15:48:39+05:30",
+        "position": 3,
+        "updated_at": "2025-07-22T15:48:41+05:30",
+        "product_id": 9828572004643,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Masala_Sev_Murmura_Carousal_03_288a330a-ba24-4f2e-b3e5-356db7a8ae2e.jpg?v=1753179521",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "240g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828564697379,
+    "title": "Masala Shing",
+    "handle": "masala-shing",
+    "body_html": "<p>Bold, spicy, and nut-oriously addictive. Coated in black salt and garam masala, every bite packs a punch of bold, desi flavour.<br></p>",
+    "published_at": "2025-03-11T13:11:27+05:30",
+    "created_at": "2025-03-11T13:11:28+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311222448419,
+        "title": "40g",
+        "option1": "40g",
+        "option2": null,
+        "option3": null,
+        "sku": "101816",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 40,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828564697379,
+        "created_at": "2025-03-11T13:11:29+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49574022938915,
+        "created_at": "2025-05-06T18:43:47+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T18:43:48+05:30",
+        "product_id": 9828564697379,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Masala_Shing_Carousal_01_f234ab4d-6175-4e0f-8a27-585074e93663.png?v=1746537228",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49574023692579,
+        "created_at": "2025-05-06T18:43:51+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T18:44:00+05:30",
+        "product_id": 9828564697379,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Salted_Peanuts_Carousal_02_20b941a7-da24-460d-a017-017d9d551a9f.jpg?v=1746537240",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49574023594275,
+        "created_at": "2025-05-06T18:43:51+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T18:44:00+05:30",
+        "product_id": 9828564697379,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Salted_Peanuts_Carousal_03_f3eae90c-f959-4ec0-9ddb-d7804892e543.jpg?v=1746537240",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "40g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828576592163,
+    "title": "Mitha Farali Chivda",
+    "handle": "mitha-farali-chivda",
+    "body_html": "<p>For those snack cravings that need a little sweetness with a twist of spice—this snack is your perfect companion.<br></p>",
+    "published_at": "2025-03-11T13:31:49+05:30",
+    "created_at": "2025-03-11T13:31:49+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311595905315,
+        "title": "230g",
+        "option1": "230g",
+        "option2": null,
+        "option3": null,
+        "sku": "101080",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "55.00",
+        "grams": 230,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828576592163,
+        "created_at": "2025-03-11T13:31:50+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579109876003,
+        "created_at": "2025-05-07T10:51:59+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:52:00+05:30",
+        "product_id": 9828576592163,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Mitha_Farali_Chivda_Carousal_01_48764bc9-6c89-40ad-928d-bb2aa4a10b00.jpg?v=1746595320",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579109941539,
+        "created_at": "2025-05-07T10:52:00+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:52:01+05:30",
+        "product_id": 9828576592163,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Mitha_Farali_Chivda_Carousal_02_1dbc90b6-4d6f-4510-ab54-04bf073ee4ed.jpg?v=1746595321",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579109908771,
+        "created_at": "2025-05-07T10:52:00+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:52:01+05:30",
+        "product_id": 9828576592163,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Mitha_Farali_Chivda_Carousal_03_1a9f4edc-a808-4c7d-ae45-0e5c5fd73d39.jpg?v=1746595321",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "230g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828557979939,
+    "title": "Mung Dal",
+    "handle": "mung-dal",
+    "body_html": "<p>Crispy, crunchy, and packed with just the right punch of black salt! This mung dal will have you munching non-stop—because one bite is NEVER enough.<br></p>",
+    "published_at": "2025-03-11T12:59:48+05:30",
+    "created_at": "2025-03-11T12:59:48+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53310966956323,
+        "title": "240g",
+        "option1": "240g",
+        "option2": null,
+        "option3": null,
+        "sku": "101446",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 240,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828557979939,
+        "created_at": "2025-03-11T12:59:49+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 53310966989091,
+        "title": "500g",
+        "option1": "500g",
+        "option2": null,
+        "option3": null,
+        "sku": "101447",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "95.00",
+        "grams": 500,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828557979939,
+        "created_at": "2025-03-11T12:59:49+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49573972410659,
+        "created_at": "2025-05-06T18:34:33+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T18:34:34+05:30",
+        "product_id": 9828557979939,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Katak_Batak_-_Chilli_Lemon_Carousal_01_537ca3c1-c7e1-4b34-8627-3be887ef2e39.jpg?v=1746536674",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49573972443427,
+        "created_at": "2025-05-06T18:34:34+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T18:34:43+05:30",
+        "product_id": 9828557979939,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Mung_Dal_Carousal_02_d5082111-32ba-4e93-b974-68553636e41e.jpg?v=1746536683",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49573972476195,
+        "created_at": "2025-05-06T18:34:33+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T18:34:43+05:30",
+        "product_id": 9828557979939,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Katak_Batak_-_Chilli_Lemon_Carousal_03_b088db4b-42cc-440f-be98-8366fb2c4983.jpg?v=1746536683",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "240g",
+          "500g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828578197795,
+    "title": "Navratan Mix",
+    "handle": "navratan-mix",
+    "body_html": "<p dir=\"ltr\"><span>Sweet, salty, spicy, this mix has it all. Nuts, spices, sev, and raisins come together into one irresistible bite. </span></p>\n<p> </p>",
+    "published_at": "2025-03-11T13:37:29+05:30",
+    "created_at": "2025-03-11T13:37:29+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311710986531,
+        "title": "230g",
+        "option1": "230g",
+        "option2": null,
+        "option3": null,
+        "sku": "102813",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 230,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828578197795,
+        "created_at": "2025-03-11T13:37:30+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579123015971,
+        "created_at": "2025-05-07T10:55:20+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:55:21+05:30",
+        "product_id": 9828578197795,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Navratan_Mix_Carousal_01_25597bbf-c725-4599-ad0d-bfbee8f3e025.jpg?v=1746595521",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579122983203,
+        "created_at": "2025-05-07T10:55:20+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:55:21+05:30",
+        "product_id": 9828578197795,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Navratan_Mix_Carousal_02_445e7e10-08d8-454a-86df-0ab3a71b2c00.jpg?v=1746595521",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579122950435,
+        "created_at": "2025-05-07T10:55:19+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:55:21+05:30",
+        "product_id": 9828578197795,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Navratan_Mix_Carousal_03_f59e36a4-677d-4e74-8510-b43f0c4a84fa.jpg?v=1746595521",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "230g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10060306546979,
+    "title": "Numyums Bhatha Kani",
+    "handle": "numyums-bhatha-kani",
+    "body_html": "<p>Bold spice meets crunchy goodness - a traditional favourite that keeps pulling you back for “just one more.”</p>",
+    "published_at": "2025-11-26T11:00:29+05:30",
+    "created_at": "2025-11-17T11:23:11+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 54505089990947,
+        "title": "350g",
+        "option1": "350g",
+        "option2": null,
+        "option3": null,
+        "sku": "103171",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "70.00",
+        "grams": 350,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10060306546979,
+        "created_at": "2025-11-17T11:40:37+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50857306358051,
+        "created_at": "2025-11-17T11:41:40+05:30",
+        "position": 1,
+        "updated_at": "2025-11-17T11:41:42+05:30",
+        "product_id": 10060306546979,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/BhathaKani_Carousal_01.jpg?v=1763359902",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857306390819,
+        "created_at": "2025-11-17T11:41:40+05:30",
+        "position": 2,
+        "updated_at": "2025-11-17T11:41:42+05:30",
+        "product_id": 10060306546979,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/BhathaKani_Carousal_02.jpg?v=1763359902",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857306423587,
+        "created_at": "2025-11-17T11:41:40+05:30",
+        "position": 3,
+        "updated_at": "2025-11-17T11:41:42+05:30",
+        "product_id": 10060306546979,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/BhathaKani_Carousal_03.jpg?v=1763359902",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "350g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10060313821475,
+    "title": "Numyums Bhujia Sev",
+    "handle": "numyums-bhujia-sev",
+    "body_html": "<p>Crispy, and absolutely snack-worthy - that comforting, nostalgic crunch with a tiny touch of fire.</p>",
+    "published_at": "2025-11-26T10:26:07+05:30",
+    "created_at": "2025-11-17T11:49:29+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 54505095168291,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "102308",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10060313821475,
+        "created_at": "2025-11-17T11:49:29+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 54505095725347,
+        "title": "400g",
+        "option1": "400g",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "85.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 10060313821475,
+        "created_at": "2025-11-17T11:51:46+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50857309503779,
+        "created_at": "2025-11-17T11:50:03+05:30",
+        "position": 1,
+        "updated_at": "2025-11-17T11:50:05+05:30",
+        "product_id": 10060313821475,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/NUMYUMSBHUJIASEV_Carousal_01.jpg?v=1763360405",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857309536547,
+        "created_at": "2025-11-17T11:50:03+05:30",
+        "position": 2,
+        "updated_at": "2025-11-17T11:50:05+05:30",
+        "product_id": 10060313821475,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/NUMYUMSBHUJIASEV_Carousal_02.jpg?v=1763360405",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857309569315,
+        "created_at": "2025-11-17T11:50:03+05:30",
+        "position": 3,
+        "updated_at": "2025-11-17T11:50:05+05:30",
+        "product_id": 10060313821475,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/NUMYUMSBHUJIASEV_Carousal_03.jpg?v=1763360405",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g",
+          "400g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828567810339,
+    "title": "Papdi Gathiya",
+    "handle": "papdi-gathiya",
+    "body_html": "<p>Your tea-time sidekick, crispy and golden! Papdi Gathiya’s the snack that’s been making chai moments better, bite after bite, with its perfect crunch and spice.<br></p>",
+    "published_at": "2025-03-11T13:16:59+05:30",
+    "created_at": "2025-03-11T13:16:59+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311325667619,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "103175",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828567810339,
+        "created_at": "2025-03-11T13:17:00+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579075502371,
+        "created_at": "2025-05-07T10:42:01+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:42:02+05:30",
+        "product_id": 9828567810339,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Papdi_Gathiya_Carousal_01_64ec0ca7-8bf1-4fce-ad00-aa0a3c8c6bc2.jpg?v=1746594722",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579075469603,
+        "created_at": "2025-05-07T10:42:01+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:42:02+05:30",
+        "product_id": 9828567810339,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Papdi_Gathiya_Carousal_02_202fafac-a2c8-408d-8582-66c84f124030.jpg?v=1746594722",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579075535139,
+        "created_at": "2025-05-07T10:42:02+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:42:03+05:30",
+        "product_id": 9828567810339,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Papdi_Gathiya_Carousal_03_571036a8-9ca9-4099-ac0d-1ea3f7249ed7.jpg?v=1746594723",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9849138741539,
+    "title": "Punjabi Tadka",
+    "handle": "punjabi-tadka",
+    "body_html": "<p dir=\"ltr\"><span>Full of tadka, packed with spice. This one’s got all the flavour you crave, from crispy crunch to unforgettable spice!</span></p>\n<p> </p>",
+    "published_at": "2025-04-01T15:21:24+05:30",
+    "created_at": "2025-04-01T15:21:24+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53505784217891,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "103228",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9849138741539,
+        "created_at": "2025-04-01T15:21:26+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579182522659,
+        "created_at": "2025-05-07T11:13:33+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T11:13:34+05:30",
+        "product_id": 9849138741539,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Punjabi_Tadka_Carousal_01_125ac69b-715f-4b6c-ab8d-f39fb03356a2.jpg?v=1746596614",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579182489891,
+        "created_at": "2025-05-07T11:13:32+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T11:13:34+05:30",
+        "product_id": 9849138741539,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Punjabi_Tadka_Carousal_02_3a9878ef-011b-4ac6-9531-af7cb9f60cf8.jpg?v=1746596614",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579186716963,
+        "created_at": "2025-05-07T11:14:25+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T11:14:26+05:30",
+        "product_id": 9849138741539,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Rectangle_102_0982123c-f24f-408a-95e1-f36c82869014.png?v=1746596666",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828569383203,
+    "title": "Ratlami Sev",
+    "handle": "ratlami-sev",
+    "body_html": "<p>Packed with fiery chilli, ajwain, and a secret mix of spices, Ratlami Sev is that snack that hits differently and is unforgettable.<br></p>",
+    "published_at": "2025-03-11T13:19:16+05:30",
+    "created_at": "2025-03-11T13:19:16+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311333466403,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "102247",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828569383203,
+        "created_at": "2025-03-11T13:19:17+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 53311333499171,
+        "title": "400g",
+        "option1": "400g",
+        "option2": null,
+        "option3": null,
+        "sku": "102248",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "80.00",
+        "grams": 400,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828569383203,
+        "created_at": "2025-03-11T13:19:17+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579078156579,
+        "created_at": "2025-05-07T10:43:19+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:43:20+05:30",
+        "product_id": 9828569383203,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Ratlami_Sev_Carousal_01_f6ba09b9-b07a-453c-9253-120a6725eae8.jpg?v=1746594800",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579078418723,
+        "created_at": "2025-05-07T10:43:20+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:43:28+05:30",
+        "product_id": 9828569383203,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Ratlami_Sev_Carousal_02_ffddf64c-6853-4e32-97a7-a26841410c2d.jpg?v=1746594808",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579078123811,
+        "created_at": "2025-05-07T10:43:19+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:43:28+05:30",
+        "product_id": 9828569383203,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Ratlami_Sev_Carousal_03_fedb6c79-e277-4ffe-b5fc-ff75d567b850.jpg?v=1746594808",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g",
+          "400g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828523213091,
+    "title": "Rumbles - Pudina Twist",
+    "handle": "rumbles-pudina-twist",
+    "body_html": "<p>For those who like it tough – and crunchy! These hard-bodied Rumbles give you the perfect balance of bold crunch and pudina punch. <br></p>",
+    "published_at": "2025-03-11T11:42:19+05:30",
+    "created_at": "2025-03-11T11:42:19+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Wafers",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53309581066531,
+        "title": "140g",
+        "option1": "140g",
+        "option2": null,
+        "option3": null,
+        "sku": "100267",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "40.00",
+        "grams": 140,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828523213091,
+        "created_at": "2025-03-11T11:42:20+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49545989128483,
+        "created_at": "2025-05-02T13:56:30+05:30",
+        "position": 1,
+        "updated_at": "2025-05-02T13:56:31+05:30",
+        "product_id": 9828523213091,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Rumbles_Pudina_Twist_Wafers_Carousal_01_510bceb4-8253-4583-a159-bfe1cc3c0fb0.jpg?v=1746174391",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545989095715,
+        "created_at": "2025-05-02T13:56:30+05:30",
+        "position": 2,
+        "updated_at": "2025-05-02T13:56:31+05:30",
+        "product_id": 9828523213091,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Rumbles_Pudina_Twist_Wafers_Carousal_02_4b42be50-1ad6-4d68-8464-b15b29e56b5f.jpg?v=1746174391",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49545989062947,
+        "created_at": "2025-05-02T13:56:30+05:30",
+        "position": 3,
+        "updated_at": "2025-05-02T13:56:31+05:30",
+        "product_id": 9828523213091,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Rumbles_Pudina_Twist_Wafers_Carousal_03_6fb42196-347d-41c2-969c-be42abd40b92.jpg?v=1746174391",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "140g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828564009251,
+    "title": "Salted Peanuts",
+    "handle": "salted-peanuts",
+    "body_html": "<p>Go nuts and grab a handful. These salted peanuts are perfectly salty and so good that you’ll be gobbling on them one after another.<br></p>",
+    "published_at": "2025-03-11T13:10:09+05:30",
+    "created_at": "2025-03-11T13:10:09+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311192072483,
+        "title": "40g",
+        "option1": "40g",
+        "option2": null,
+        "option3": null,
+        "sku": "101818",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 40,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828564009251,
+        "created_at": "2025-03-11T13:10:10+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49574001803555,
+        "created_at": "2025-05-06T18:41:33+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T18:41:34+05:30",
+        "product_id": 9828564009251,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Salted_Peanuts_Carousal_01_3cedded3-b13c-493f-af86-e0de619ce371.jpg?v=1746537094",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49574001738019,
+        "created_at": "2025-05-06T18:41:33+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T18:41:34+05:30",
+        "product_id": 9828564009251,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Salted_Peanuts_Carousal_02_1b7c9257-860e-4e81-9dd9-3b2eb079dd33.jpg?v=1746537094",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49574001770787,
+        "created_at": "2025-05-06T18:41:33+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T18:41:34+05:30",
+        "product_id": 9828564009251,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Salted_Peanuts_Carousal_03_ef23a04d-60e4-469c-9213-853a578a6e20.jpg?v=1746537094",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "40g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828570530083,
+    "title": "Sev Murmura",
+    "handle": "sev-murmura",
+    "body_html": "<p>The ultimate crowd-pleaser! Light, crispy puffed rice and crunchy sev, all tossed in a blend of aromatic spices. Loved by everyone, at any time, anywhere.<br></p>",
+    "published_at": "2025-03-11T13:20:50+05:30",
+    "created_at": "2025-03-11T13:20:50+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311354601763,
+        "title": "240g",
+        "option1": "240g",
+        "option2": null,
+        "option3": null,
+        "sku": "104559",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 240,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828570530083,
+        "created_at": "2025-03-11T13:20:51+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50126165410083,
+        "created_at": "2025-07-22T15:46:23+05:30",
+        "position": 1,
+        "updated_at": "2025-07-22T15:47:14+05:30",
+        "product_id": 9828570530083,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Sev_Murmura_Carousal_01_1aa1e0e3-588e-49ab-b6de-e246104ff1ca.jpg?v=1753179434",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579083039011,
+        "created_at": "2025-05-07T10:44:49+05:30",
+        "position": 2,
+        "updated_at": "2025-07-22T15:47:14+05:30",
+        "product_id": 9828570530083,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Sev_Murmura_Carousal_02_32228db5-bb63-4900-a831-8c629c8a6d65.jpg?v=1753179434",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50126165541155,
+        "created_at": "2025-07-22T15:46:26+05:30",
+        "position": 3,
+        "updated_at": "2025-07-22T15:46:28+05:30",
+        "product_id": 9828570530083,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Sev_Murmura_Carousal_03_e9b58fa3-5c8c-4790-97b6-250a16817b26.jpg?v=1753179388",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "240g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828562993443,
+    "title": "Shing Bhujia",
+    "handle": "shing-bhujia",
+    "body_html": "<p dir=\"ltr\"><span>Crunchy peanuts, coated in classic gram flour and a pinch of salt—this snack is the perfect combo of savoury and satisfying.</span></p>\n<p> </p>",
+    "published_at": "2025-03-11T13:08:16+05:30",
+    "created_at": "2025-03-11T13:08:16+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311149605155,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "102055",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "40.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828562993443,
+        "created_at": "2025-03-11T13:08:18+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 53311149637923,
+        "title": "400g",
+        "option1": "400g",
+        "option2": null,
+        "option3": null,
+        "sku": "102056",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "80.00",
+        "grams": 400,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828562993443,
+        "created_at": "2025-03-11T13:08:18+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49573990727971,
+        "created_at": "2025-05-06T18:38:40+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T18:38:42+05:30",
+        "product_id": 9828562993443,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Shing_Bhujia_Carousal_01_fd4613ad-07d6-415d-8ec8-e8e1ddc299ed.jpg?v=1746536922",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49573990629667,
+        "created_at": "2025-05-06T18:38:40+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T18:38:41+05:30",
+        "product_id": 9828562993443,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Shing_Bhujia_Carousal_02_d33b9075-2cae-44ec-a802-cea0682cde4c.jpg?v=1746536921",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49573990662435,
+        "created_at": "2025-05-06T18:38:40+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T18:38:41+05:30",
+        "product_id": 9828562993443,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Shing_Bhujia_Carousal_03_a46f1c59-fafb-49bc-aae8-1fa6335c8d53.jpg?v=1746536921",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g",
+          "400g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828577149219,
+    "title": "Tikha Mitha Mix",
+    "handle": "tikha-mitha-mix",
+    "body_html": "<p>A sweet hit, a spicy kick—this snack is the perfect combo for when you can't decide if you want sweet or spicy. Why not both?<br></p>",
+    "published_at": "2025-03-11T13:33:21+05:30",
+    "created_at": "2025-03-11T13:33:21+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53311628509475,
+        "title": "500g",
+        "option1": "500g",
+        "option2": null,
+        "option3": null,
+        "sku": "102731",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "90.00",
+        "grams": 500,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828577149219,
+        "created_at": "2025-03-11T13:33:22+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      },
+      {
+        "id": 53311628542243,
+        "title": "230g",
+        "option1": "230g",
+        "option2": null,
+        "option3": null,
+        "sku": "102750",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "45.00",
+        "grams": 230,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 9828577149219,
+        "created_at": "2025-03-11T13:33:22+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49579117805859,
+        "created_at": "2025-05-07T10:53:27+05:30",
+        "position": 1,
+        "updated_at": "2025-05-07T10:53:28+05:30",
+        "product_id": 9828577149219,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Tikha_Mitha_Mix_Carousal_01_7cd40c39-5e2a-43d7-9302-307cbf8f8108.jpg?v=1746595408",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579117936931,
+        "created_at": "2025-05-07T10:53:28+05:30",
+        "position": 2,
+        "updated_at": "2025-05-07T10:53:29+05:30",
+        "product_id": 9828577149219,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Tikha_Mitha_Mix_Carousal_02_17bee988-32e8-47a4-a443-e7c6fa83287e.jpg?v=1746595409",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49579117871395,
+        "created_at": "2025-05-07T10:53:27+05:30",
+        "position": 3,
+        "updated_at": "2025-05-07T10:53:29+05:30",
+        "product_id": 9828577149219,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Tikha_Mitha_Mix_Carousal_03_89fbed15-7943-4e52-b490-6e29a8aacf08.jpg?v=1746595409",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "500g",
+          "230g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10060301205795,
+    "title": "Urad Papad",
+    "handle": "urad-papad",
+    "body_html": "<p>Crispy, loud, and full of attitude - every bite hits with bold flavour and that crackle you can’t resist.<span data-sheets-root=\"1\"></span></p>",
+    "published_at": "2025-11-26T11:11:48+05:30",
+    "created_at": "2025-11-17T10:52:03+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Namkeen",
+    "tags": [],
+    "variants": [
+      {
+        "id": 54505084682531,
+        "title": "200g",
+        "option1": "200g",
+        "option2": null,
+        "option3": null,
+        "sku": "104977",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "60.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10060301205795,
+        "created_at": "2025-11-17T11:32:33+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 50857230500131,
+        "created_at": "2025-11-17T10:59:39+05:30",
+        "position": 1,
+        "updated_at": "2025-11-17T10:59:41+05:30",
+        "product_id": 10060301205795,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/UdadPapad_Carousal_01.jpg?v=1763357381",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857230532899,
+        "created_at": "2025-11-17T10:59:39+05:30",
+        "position": 2,
+        "updated_at": "2025-11-17T10:59:41+05:30",
+        "product_id": 10060301205795,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/UdadPapad_Carousal_02.jpg?v=1763357381",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 50857230565667,
+        "created_at": "2025-11-17T10:59:39+05:30",
+        "position": 3,
+        "updated_at": "2025-11-17T10:59:40+05:30",
+        "product_id": 10060301205795,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/UdadPapad_Carousal_03.jpg?v=1763357380",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "200g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828643438883,
+    "title": "Wheelos - Masala",
+    "handle": "wheelos-masala",
+    "body_html": "<p dir=\"ltr\"><span>This will have you rolling with delight. Round, crunchy, and seasoned with a special spicy mix, here’s to a snack that’ll spin your mood around.</span></p>\n<p> </p>",
+    "published_at": "2025-03-11T16:15:57+05:30",
+    "created_at": "2025-03-11T16:15:57+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314641592611,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "104843",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828643438883,
+        "created_at": "2025-03-11T16:15:58+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49571582869795,
+        "created_at": "2025-05-06T10:47:13+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T10:47:15+05:30",
+        "product_id": 9828643438883,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Wheelos_Masala_Carousal_01_6fa2175e-e898-4238-af8c-04904513a9f0.jpg?v=1746508635",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571582837027,
+        "created_at": "2025-05-06T10:47:13+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T10:47:14+05:30",
+        "product_id": 9828643438883,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Wheelos_Masala_Carousal_02_8246d12f-67fd-4b65-83e7-1684547b0594.jpg?v=1746508634",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571582705955,
+        "created_at": "2025-05-06T10:47:13+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T10:47:14+05:30",
+        "product_id": 9828643438883,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Wheelos_Masala_Carousal_03_c6413438-5fc1-476c-b6f7-0e8a2c1b7991.jpg?v=1746508634",
+        "width": 800,
+        "height": 844
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9828645536035,
+    "title": "Yumstix",
+    "handle": "yumstix",
+    "body_html": "<p>Crunch. Munch. Repeat all day long. These bold, zesty sticks don’t play around, they demand to be devoured.</p>",
+    "published_at": "2025-03-11T16:21:45+05:30",
+    "created_at": "2025-03-11T16:21:45+05:30",
+    "updated_at": "2025-11-30T18:59:53+05:30",
+    "vendor": "Balaji Wafers",
+    "product_type": "Western Snacks",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53314683928867,
+        "title": "48g",
+        "option1": "48g",
+        "option2": null,
+        "option3": null,
+        "sku": "103226",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "10.00",
+        "grams": 48,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9828645536035,
+        "created_at": "2025-03-11T16:21:46+05:30",
+        "updated_at": "2025-11-30T18:59:53+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49571552493859,
+        "created_at": "2025-05-06T10:42:37+05:30",
+        "position": 1,
+        "updated_at": "2025-05-06T10:42:48+05:30",
+        "product_id": 9828645536035,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Yumstix_Carousal_01_07c71e1c-4875-491f-840b-72ed0cf9e6fc.jpg?v=1746508368",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571552657699,
+        "created_at": "2025-05-06T10:42:38+05:30",
+        "position": 2,
+        "updated_at": "2025-05-06T10:42:48+05:30",
+        "product_id": 9828645536035,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Yumstix_Carousal_01-2_8ccfd069-bd8d-412e-96e8-b6cb1354d41e.jpg?v=1746508368",
+        "width": 800,
+        "height": 844
+      },
+      {
+        "id": 49571552624931,
+        "created_at": "2025-05-06T10:42:38+05:30",
+        "position": 3,
+        "updated_at": "2025-05-06T10:42:48+05:30",
+        "product_id": 9828645536035,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0917/0347/6515/files/Yumstix_Carousal_01-1_4239b980-616d-4889-b751-c9bca7af9a57.jpg?v=1746508368",
+        "width": 1080,
+        "height": 1139
+      }
+    ],
+    "options": [
+      {
+        "name": "Weight",
+        "position": 1,
+        "values": [
+          "48g"
+        ]
+      }
+    ]
+  }
+]
