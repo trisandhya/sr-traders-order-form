@@ -94,6 +94,20 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
 
   alert("Order submitted for " + shopName + " on " + orderDate + "! JSON and CSV downloaded.");
 });
+// Placeholder replaced during build
+const WEB_APP_URL = "__WEB_APP_URL__";
+const DEPLOYMENT_ID = "__DEPLOYMENT_ID__";
+
+// Send order to Google Sheet via Apps Script Web App
+fetch(WEB_APP_URL, {
+  method: "POST",
+  body: JSON.stringify(data),
+  headers: { "Content-Type": "application/json" }
+})
+.then(res => res.text())
+.then(msg => console.log("Sheet update:", msg, "Deployment:", DEPLOYMENT_ID))
+.catch(err => console.error("Error updating sheet:", err));
+
 
 loadShops();
 loadProducts();
