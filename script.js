@@ -101,7 +101,7 @@ async function loadProducts() {
 }
 
 // Secrets placeholders (injected by GitHub Actions during build)
-const WEB_APP_URL = "__WEB_APP_URL__";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwtjrhYNhIMvJbkHbMC4V-6t-Q9C73UEBStloj0zj0f5D7ye_W8R4AR9PQeWhOlMF-O/exec";
 const DEPLOYMENT_ID = "__DEPLOYMENT_ID__";
 
 // Form submit handler
