@@ -1,4 +1,3 @@
-// Fixed quantity choices
 const quantityOptions = [0, 12, 24, 36, 48];
 
 async function loadShops() {
@@ -25,19 +24,16 @@ async function loadProducts() {
         const card = document.createElement('div');
         card.className = 'card';
 
-        // Product image
         const img = document.createElement('img');
         if (product.images && product.images.length > 0) {
           img.src = product.images[0].src;
         }
         card.appendChild(img);
 
-        // Product name + variant
         const title = document.createElement('p');
         title.textContent = `${product.title} - ${variant.title} (₹${variant.price})`;
         card.appendChild(title);
 
-        // Quantity dropdown
         const select = document.createElement('select');
         select.name = `${product.title}_${variant.title}`.replace(/\s+/g, '_');
         quantityOptions.forEach(qty => {
@@ -54,18 +50,6 @@ async function loadProducts() {
   });
 }
 
-// Convert order data to CSV
-function convertToCSV(obj) {
-  const rows = [["Shop Name", obj.shopName], ["Order Date", obj.orderDate], [], ["Product", "Quantity"]];
-  for (let key in obj) {
-    if (key !== "shopName" && key !== "orderDate") {
-      rows.push([key, obj[key]]);
-    }
-  }
-  return rows.map(r => r.join(",")).join("\n");
-}
-
-// Handle form submission
 document.getElementById('orderForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const data = {};
@@ -87,7 +71,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
     }
   });
 
-  // JSON download
+  // JSON + CSV download logic (same as before)
   const jsonBlob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
   const jsonUrl = URL.createObjectURL(jsonBlob);
   const jsonLink = document.createElement("a");
@@ -95,8 +79,13 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   jsonLink.download = "order.json";
   jsonLink.click();
 
-  // CSV download
-  const csvBlob = new Blob([convertToCSV(data)], { type: "text/csv" });
+  const rows = [["Shop Name", data.shopName], ["Order Date", data.orderDate], [], ["Product", "Quantity"]];
+  for (let key in data) {
+    if (key !== "shopName" && key !== "orderDate") {
+      rows.push([key, data[key]]);
+    }
+  }
+  const csvBlob = new Blob([rows.map(r => r.join(",")).join("\n")], { type: "text/csv" });
   const csvUrl = URL.createObjectURL(csvBlob);
   const csvLink = document.createElement("a");
   csvLink.href = csvUrl;
@@ -105,6 +94,6 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
 
   alert("Order submitted for " + shopName + " on " + orderDate + "! JSON and CSV downloaded.");
 });
+
 loadShops();
 loadProducts();
-
