@@ -1,5 +1,11 @@
 const quantityOptions = [0, 12, 24, 36, 48];
 
+// Utility to mask secrets before logging
+function maskSecret(secret) {
+  if (!secret) return "";
+  return secret.substring(0, 6) + "..." + secret.slice(-4); // show only start+end
+}
+
 async function loadShops() {
   const response = await fetch('shops.json');
   const shops = await response.json();
@@ -50,6 +56,10 @@ async function loadProducts() {
   });
 }
 
+// Placeholders replaced during build by GitHub Actions
+const WEB_APP_URL = "__WEB_APP_URL__";
+const DEPLOYMENT_ID = "__DEPLOYMENT_ID__";
+
 document.getElementById('orderForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const data = {};
@@ -71,7 +81,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
     }
   });
 
-  // JSON + CSV download logic (same as before)
+  // JSON download
   const jsonBlob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
   const jsonUrl = URL.createObjectURL(jsonBlob);
   const jsonLink = document.createElement("a");
@@ -79,6 +89,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   jsonLink.download = "order.json";
   jsonLink.click();
 
+  // CSV download
   const rows = [["Shop Name", data.shopName], ["Order Date", data.orderDate], [], ["Product", "Quantity"]];
   for (let key in data) {
     if (key !== "shopName" && key !== "orderDate") {
@@ -92,22 +103,21 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   csvLink.download = "order.csv";
   csvLink.click();
 
-  alert("Order submitted for " + shopName + " on " + orderDate + "! JSON and CSV downloaded.");
+  // Send to Google Sheet via Web App
+  fetch(WEB_APP_URL, {
+    method: "POST",
+    body: JSON.stringify(data),
+    headers: { "Content-Type": "application/json" }
+  })
+  .then(res => res.text())
+  .then(msg => {
+    console.log("Sheet update success:", msg);
+    console.log("Deployment reference:", maskSecret(DEPLOYMENT_ID)); // masked
+  })
+  .catch(err => console.error("Error updating sheet:", err));
+
+  alert("Order submitted for " + shopName + " on " + orderDate + "! JSON/CSV downloaded and Sheet updated.");
 });
-// Placeholder replaced during build
-const WEB_APP_URL = "__WEB_APP_URL__";
-const DEPLOYMENT_ID = "__DEPLOYMENT_ID__";
-
-// Send order to Google Sheet via Apps Script Web App
-fetch(WEB_APP_URL, {
-  method: "POST",
-  body: JSON.stringify(data),
-  headers: { "Content-Type": "application/json" }
-})
-.then(res => res.text())
-.then(msg => console.log("Sheet update:", msg, "Deployment:", DEPLOYMENT_ID))
-.catch(err => console.error("Error updating sheet:", err));
-
 
 loadShops();
 loadProducts();
