@@ -163,7 +163,16 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
     const csvUrl = URL.createObjectURL(csvBlob);
     const csvLink = document.createElement("a");
     csvLink.href = csvUrl;
-    csvLink.download = "order.csv";
+    // Dynamic filename: shopname-date-time.csv
+    const safeShopName = data.shopName.replace(/\s+/g, "_");
+    const safeDate = data.orderDate.replace(/[^0-9\-]/g, "");
+    const now = new Date();
+    const hh = String(now.getHours()).padStart(2, "0");
+    const mm = String(now.getMinutes()).padStart(2, "0");
+    const ss = String(now.getSeconds()).padStart(2, "0");
+    const safeTime = `${hh}-${mm}-${ss}`;
+    csvLink.download = `${safeShopName}-${safeDate}-${safeTime}.csv`;
+  
     csvLink.click();
   } catch (err) {
     console.error("CSV download failed:", err);
