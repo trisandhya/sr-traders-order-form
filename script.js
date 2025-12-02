@@ -107,10 +107,6 @@ async function loadProducts() {
   }
 }
 
-// Secrets placeholders (injected by GitHub Actions during build)
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwtjrhYNhIMvJbkHbMC4V-6t-Q9C73UEBStloj0zj0f5D7ye_W8R4AR9PQeWhOlMF-O/exec";
-const DEPLOYMENT_ID = "__DEPLOYMENT_ID__";
-
 // Form submit handler
 document.getElementById('orderForm').addEventListener('submit', async function(e) {
   e.preventDefault();
@@ -139,17 +135,7 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
     if (!proceed) return;
   }
 
-  // Local JSON download
-  try {
-    const jsonBlob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
-    const jsonUrl = URL.createObjectURL(jsonBlob);
-    const jsonLink = document.createElement("a");
-    jsonLink.href = jsonUrl;
-    jsonLink.download = "order.json";
-    jsonLink.click();
-  } catch (err) {
-    console.error("JSON download failed:", err);
-  }
+  
 
   // Local CSV download
   try {
