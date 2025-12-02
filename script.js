@@ -178,21 +178,6 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
     console.error("CSV download failed:", err);
   }
 
-  // Post to Google Sheet via Web App (masked logging)
-try {
-  const res = await fetch(WEB_APP_URL, {
-    method: "POST",
-    body: JSON.stringify(data),
-    headers: { "Content-Type": "application/json" }
-  });
-  const msg = await res.text();
-  console.log("Sheet update success:", msg);
-  console.log("Deployment reference:", maskSecret(DEPLOYMENT_ID));
-  alert(`Order submitted for ${shopName} on ${orderDate}! JSON/CSV downloaded and Sheet updated.`);
-} catch (err) {
-  console.error("Error updating sheet:", err);
-  alert(`Order submitted for ${shopName} on ${orderDate}! JSON/CSV downloaded. Sheet update failed.`);
-}
 
 });
 
