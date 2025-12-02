@@ -10,26 +10,29 @@
   <!-- Hidden iframe to capture Apps Script response -->
   <iframe name="hidden_iframe" style="display:none"></iframe>
 
-  <form id="orderForm" 
-        action="https://script.google.com/macros/s/AKfycbwtjrhYNhIMvJbkHbMC4V-6t-Q9C73UEBStloj0zj0f5D7ye_W8R4AR9PQeWhOlMF-O/exec" 
-        method="POST" 
-        target="hidden_iframe">
-    <!-- Shop selector -->
-    <label for="shopSelect" class="form-label">Shop Name:</label>
-    <select id="shopSelect" name="shopName" required class="form-input">
-      <option value="">-- Select Shop --</option>
-      <!-- Options populated dynamically from shops.json -->
-    </select>
+  <form id="orderForm"
+      action="https://script.google.com/macros/s/AKfycbwtjrhYNhIMvJbkHbMC4V-6t-Q9C73UEBStloj0zj0f5D7ye_W8R4AR9PQeWhOlMF-O/exec"
+      method="POST"
+      target="hidden_iframe">
+  <!-- Shop selector -->
+  <label for="shopSelect" class="form-label">Shop Name:</label>
+  <select id="shopSelect" name="shopName" required class="form-input">
+    <option value="">-- Select Shop --</option>
+  </select>
 
-    <!-- Date picker -->
-    <label for="orderDate" class="form-label">Order Date:</label>
-    <input type="date" id="orderDate" name="orderDate" required class="form-input">
+  <!-- Date picker -->
+  <label for="orderDate" class="form-label">Order Date:</label>
+  <input type="date" id="orderDate" name="orderDate" required class="form-input">
 
-    <!-- Product grid -->
-    <div id="productGrid" class="grid"></div>
+  <!-- Product grid -->
+  <div id="productGrid" class="grid"></div>
 
-    <button type="submit">Submit Order</button>
-  </form>
+  <button type="submit">Submit Order</button>
+</form>
+
+<!-- Hidden iframe to capture response -->
+<iframe name="hidden_iframe" style="display:none"></iframe>
+
 
   <script src="script.js"></script>
 </body>
