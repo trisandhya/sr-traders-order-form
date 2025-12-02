@@ -109,7 +109,7 @@ async function loadProducts() {
 
 // Form submit handler
 document.getElementById('orderForm').addEventListener('submit', async function(e) {
- // e.preventDefault();
+
 
   const shopName = document.getElementById("shopSelect").value;
   const orderDate = document.getElementById("orderDate").value;
