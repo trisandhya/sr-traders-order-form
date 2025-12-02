@@ -6,7 +6,11 @@
 </head>
 <body>
   <h1>SR-Traders Order Form</h1>
-  <form id="orderForm">
+
+  <!-- Hidden iframe to capture Google Apps Script response -->
+  <iframe name="hidden_iframe" style="display:none"></iframe>
+
+  <form id="orderForm" action="YOUR_WEB_APP_URL" method="POST" target="hidden_iframe">
     <!-- Shop selector -->
     <label for="shopSelect" class="form-label">Shop Name:</label>
     <select id="shopSelect" name="shopName" required class="form-input">
@@ -23,6 +27,7 @@
 
     <button type="submit">Submit Order</button>
   </form>
+
   <script src="script.js"></script>
 </body>
 </html>
