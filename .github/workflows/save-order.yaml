@@ -1,0 +1,18 @@
+name: Save Order CSV
+on:
+  workflow_dispatch:   # or trigger via API call
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Save CSV
+        run: |
+          echo "${{ github.event.inputs.csv_content }}" > orders/${{ github.event.inputs.filename }}
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add orders/
+          git commit -m "Add order CSV ${{ github.event.inputs.filename }}"
+          git push origin order
