@@ -107,19 +107,11 @@ async function loadProducts() {
   }
 }
 
-// Form submit handler
-document.getElementById('orderForm').addEventListener('submit', async function(e) {
-
-
+document.getElementById('orderForm').addEventListener('submit', function(e) {
+  // DO NOT call e.preventDefault()
   const shopName = document.getElementById("shopSelect").value;
   const orderDate = document.getElementById("orderDate").value;
 
-  if (!shopName || !orderDate) {
-    alert("Please select a shop name and date.");
-    return;
-  }
-
-  // Build order data
   const data = { shopName, orderDate, deviceType: getDeviceType() };
   const selects = document.querySelectorAll("select:not(#shopSelect)");
   selects.forEach(select => {
@@ -129,40 +121,34 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
     }
   });
 
-  // If no items selected, prompt before proceeding
-  if (Object.keys(data).filter(k => !["shopName", "orderDate"].includes(k)).length === 0) {
-    const proceed = confirm("No quantities selected. Submit anyway?");
-    if (!proceed) return;
-  }
+  // Local JSON download
+  const jsonBlob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const jsonUrl = URL.createObjectURL(jsonBlob);
+  const jsonLink = document.createElement("a");
+  jsonLink.href = jsonUrl;
+  jsonLink.download = "order.json";
+  jsonLink.click();
 
   // Local CSV download
-  try {
-    const rows = [["Shop Name", data.shopName], ["Order Date", data.orderDate],["Device Type", data.deviceType], [], ["Product", "Quantity"]];
-    for (let key in data) {
-      if (!["shopName", "orderDate", "deviceType"].includes(key)) {
+  const rows = [["Shop Name", data.shopName], ["Order Date", data.orderDate], ["Device Type", data.deviceType], [], ["Product", "Quantity"]];
+  for (let key in data) {
+    if (!["shopName", "orderDate", "deviceType"].includes(key)) {
       rows.push([key, data[key]]);
-      }
     }
-    const csvBlob = new Blob([rows.map(r => r.join(",")).join("\n")], { type: "text/csv" });
-    const csvUrl = URL.createObjectURL(csvBlob);
-    const csvLink = document.createElement("a");
-    csvLink.href = csvUrl;
-    // Dynamic filename: shopname-date-time.csv
-    const safeShopName = data.shopName.replace(/\s+/g, "_");
-    const safeDate = data.orderDate.replace(/[^0-9\-]/g, "");
-    const now = new Date();
-    const hh = String(now.getHours()).padStart(2, "0");
-    const mm = String(now.getMinutes()).padStart(2, "0");
-    const ss = String(now.getSeconds()).padStart(2, "0");
-    const safeTime = `${hh}-${mm}-${ss}`;
-    csvLink.download = `${safeShopName}-${safeDate}-${safeTime}.csv`;
-  
-    csvLink.click();
-  } catch (err) {
-    console.error("CSV download failed:", err);
   }
-
-
+  const csvBlob = new Blob([rows.map(r => r.join(",")).join("\n")], { type: "text/csv" });
+  const csvUrl = URL.createObjectURL(csvBlob);
+  const csvLink = document.createElement("a");
+  csvLink.href = csvUrl;
+  const safeShopName = data.shopName.replace(/\s+/g,"_");
+  const safeDate = data.orderDate.replace(/[^0-9\-]/g,"");
+  const now = new Date();
+  const hh = String(now.getHours()).padStart(2,"0");
+  const mm = String(now.getMinutes()).padStart(2,"0");
+  const ss = String(now.getSeconds()).padStart(2,"0");
+  const safeTime = `${hh}-${mm}-${ss}`;
+  csvLink.download = `${safeShopName}-${safeDate}-${safeTime}.csv`;
+  csvLink.click();
 });
 
 // Initialize
