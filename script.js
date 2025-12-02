@@ -109,7 +109,7 @@ async function loadProducts() {
 
 // Form submit handler
 document.getElementById('orderForm').addEventListener('submit', async function(e) {
-  e.preventDefault();
+ // e.preventDefault();
 
   const shopName = document.getElementById("shopSelect").value;
   const orderDate = document.getElementById("orderDate").value;
@@ -134,8 +134,6 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
     const proceed = confirm("No quantities selected. Submit anyway?");
     if (!proceed) return;
   }
-
-  
 
   // Local CSV download
   try {
