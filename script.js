@@ -8,6 +8,13 @@ function maskSecret(secret) {
   if (!secret) return "";
   return secret.substring(0, 6) + "..." + secret.slice(-4);
 }
+// get device type
+function getDeviceType() {
+  if (navigator.userAgentData) {
+    return navigator.userAgentData.mobile ? "Mobile" : "Desktop";
+  }
+  return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? "Mobile" : "Desktop";
+}
 
 // Populate shop dropdown from shops.json
 async function loadShops() {
@@ -117,7 +124,7 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
   }
 
   // Build order data
-  const data = { shopName, orderDate };
+  const data = { shopName, orderDate, deviceType: getDeviceType() };
   const selects = document.querySelectorAll("select:not(#shopSelect)");
   selects.forEach(select => {
     const val = parseInt(select.value, 10);
@@ -146,10 +153,10 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
 
   // Local CSV download
   try {
-    const rows = [["Shop Name", data.shopName], ["Order Date", data.orderDate], [], ["Product", "Quantity"]];
+    const rows = [["Shop Name", data.shopName], ["Order Date", data.orderDate],["Device Type", data.deviceType], [], ["Product", "Quantity"]];
     for (let key in data) {
-      if (key !== "shopName" && key !== "orderDate") {
-        rows.push([key, data[key]]);
+      if (!["shopName", "orderDate", "deviceType"].includes(key)) {
+      rows.push([key, data[key]]);
       }
     }
     const csvBlob = new Blob([rows.map(r => r.join(",")).join("\n")], { type: "text/csv" });
