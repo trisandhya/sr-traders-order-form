@@ -3,6 +3,42 @@
 <head>
   <title>SR-Traders Order Form</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .form-header {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      padding: 10px;
+      z-index: 1000;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .form-header label {
+      font-weight: bold;
+    }
+    .product-list {
+      max-height: 75vh;   /* scrollable area */
+      overflow-y: auto;
+      padding: 10px;
+    }
+    button[type="submit"] {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button[type="submit"]:hover {
+      background: #45a049;
+    }
+  </style>
 </head>
 <body>
   <h1>SR-Traders Order Form</h1>
@@ -11,29 +47,23 @@
   <iframe name="hidden_iframe" style="display:none"></iframe>
 
   <form id="orderForm"
-      action="https://script.google.com/macros/s/AKfycbzSeSzT7gTHCivod-i55NVJaNInOetoVS60ovvXlGX3CmlnJZZeWnG2BXThTDr-pBCWwg/exec"
-      method="POST"
-      target="hidden_iframe">
+        action="https://script.google.com/macros/s/AKfycbwwcFnhyB8tlzlZkwapntuIza26FGn1dvX-p5Lt2RGs0xZdPT8mvlfMxX7fZTAywKquVg/exec"
+        method="POST"
+        target="hidden_iframe">
 
-  <!-- Shop selector -->
-  <label for="shopSelect" class="form-label">Shop Name:</label>
-  <select id="shopSelect" name="shopName" required class="form-input">
-    <option value="">-- Select Shop --</option>
-  </select>
+    <!-- Fixed header section -->
+    <div class="form-header">
+      <label for="shopSelect">Shop:</label>
+      <select id="shopSelect" name="shopName" required>
+        <option value="">-- Select Shop --</option>
+      </select>
 
-  <!-- Date picker -->
-  <label for="orderDate" class="form-label">Order Date:</label>
-  <input type="date" id="orderDate" name="orderDate" required class="form-input">
-  <!-->
-  <!-- Product grid -->
-  <div id="productGrid" class="grid"></div>
+      <button type="submit">Submit Order</button>
+    </div>
 
-  <button type="submit">Submit Order</button>
-</form>
-
-<!-- Hidden iframe to capture response -->
-<iframe name="hidden_iframe" style="display:none"></iframe>
-
+    <!-- Scrollable product list -->
+    <div id="productGrid" class="product-list"></div>
+  </form>
 
   <script src="script.js"></script>
 </body>
