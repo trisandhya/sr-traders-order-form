@@ -33,5 +33,3 @@ Promise.all([
     productGrid.appendChild(label);
   });
 });
-
-// No hidden_iframe logic here — submission handled in index.html via fetch
