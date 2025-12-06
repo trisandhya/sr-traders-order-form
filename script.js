@@ -140,7 +140,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
     }, 3000);
    
     // ✅ Reset form AFTER toast disappears
-    document.getElementById('orderForm').reset();
+    // document.getElementById('orderForm').reset();
   
   });
 
