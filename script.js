@@ -8,6 +8,7 @@ function maskSecret(secret) {
   if (!secret) return "";
   return secret.substring(0, 6) + "..." + secret.slice(-4);
 }
+
 // get device type
 function getDeviceType() {
   if (navigator.userAgentData) {
@@ -49,18 +50,15 @@ async function loadProducts() {
     if (!Array.isArray(products) || products.length === 0) {
       throw new Error("Empty or invalid balaji_products_all.json");
     }
-
     let renderedCount = 0;
-
     products.forEach(product => {
       const title = product?.title || "Unknown Product";
       const imageSrc = product?.images?.[0]?.src || "";
       const variants = Array.isArray(product?.variants) ? product.variants : [];
-
       variants.forEach(variant => {
         const vTitle = variant?.title || "";
         const vPrice = variant?.price ?? "";
-        const vSku = variant?.sku || ""; // optional; helps uniqueness
+        const vSku = variant?.sku || "";
 
         const card = document.createElement('div');
         card.className = 'card';
@@ -81,7 +79,6 @@ async function loadProducts() {
 
         // Quantity dropdown
         const select = document.createElement('select');
-        // Unique key: title_variant_(sku)
         const keyBase = `${title}_${vTitle}${vSku ? `_${vSku}` : ""}`;
         select.name = keyBase.replace(/\s+/g, '_').replace(/[^\w\-]/g, '');
         quantityOptions.forEach(qty => {
@@ -96,7 +93,6 @@ async function loadProducts() {
         renderedCount++;
       });
     });
-
     console.log("Rendered product variants:", renderedCount);
     if (renderedCount === 0) {
       grid.innerHTML = "<p style='color:red'>No variants found to render.</p>";
@@ -107,19 +103,22 @@ async function loadProducts() {
   }
 }
 
+// Form submission handler
 document.getElementById('orderForm').addEventListener('submit', function(e) {
   // DO NOT call e.preventDefault()
   const shopName = document.getElementById("shopSelect").value;
-  const orderDate = document.getElementById("orderDate").value;
-
+  // Live date stamp instead of user input
+  const now = new Date();
+  const orderDate = now.toISOString().split("T")[0]; // yyyy-mm-dd
   const data = { shopName, orderDate, deviceType: getDeviceType() };
+
+  // Collect product quantities
   const selects = document.querySelectorAll("select:not(#shopSelect)");
   selects.forEach(select => {
     const val = parseInt(select.value, 10);
     if (val > 0) {
       data[select.name] = val;
     }
-  
   });
 
   // Local JSON download
@@ -131,7 +130,13 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   jsonLink.click();
 
   // Local CSV download
-  const rows = [["Shop Name", data.shopName], ["Order Date", data.orderDate], ["Device Type", data.deviceType], [], ["Product", "Quantity"]];
+  const rows = [
+    ["Shop Name", data.shopName],
+    ["Order Date", data.orderDate],
+    ["Device Type", data.deviceType],
+    [],
+    ["Product", "Quantity"]
+  ];
   for (let key in data) {
     if (!["shopName", "orderDate", "deviceType"].includes(key)) {
       rows.push([key, data[key]]);
@@ -141,9 +146,9 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   const csvUrl = URL.createObjectURL(csvBlob);
   const csvLink = document.createElement("a");
   csvLink.href = csvUrl;
+
   const safeShopName = data.shopName.replace(/\s+/g,"_");
   const safeDate = data.orderDate.replace(/[^0-9\-]/g,"");
-  const now = new Date();
   const hh = String(now.getHours()).padStart(2,"0");
   const mm = String(now.getMinutes()).padStart(2,"0");
   const ss = String(now.getSeconds()).padStart(2,"0");
