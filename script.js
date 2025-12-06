@@ -30,10 +30,19 @@ async function loadProducts() {
     const products = await response.json();
     products.forEach(product => {
       const title = product.title || "Unknown Product";
+      const imageSrc = product?.images?.[0]?.src || "";
       const variants = Array.isArray(product.variants) ? product.variants : [];
       variants.forEach(variant => {
         const card = document.createElement('div');
         card.className = 'card';
+
+        // ✅ restore product image
+        if (imageSrc) {
+          const img = document.createElement('img');
+          img.src = imageSrc;
+          img.alt = title;
+          card.appendChild(img);
+        }
 
         const p = document.createElement('p');
         p.textContent = `${title} - ${variant.title} (₹${variant.price})`;
@@ -56,6 +65,7 @@ async function loadProducts() {
     console.error("Error loading products:", err);
   }
 }
+
 
 function buildOrderData() {
   const shopName = document.getElementById("shopSelect").value;
