@@ -1,4 +1,62 @@
-// Build order data from form fields
+const quantityOptions = [0, 12, 24, 36, 48];
+
+function getDeviceType() {
+  if (navigator.userAgentData) {
+    return navigator.userAgentData.mobile ? "Mobile" : "Desktop";
+  }
+  return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? "Mobile" : "Desktop";
+}
+
+async function loadShops() {
+  const shopSelect = document.getElementById('shopSelect');
+  try {
+    const response = await fetch('shops.json', { cache: 'no-store' });
+    const shops = await response.json();
+    shops.forEach(shop => {
+      const option = document.createElement('option');
+      option.value = shop;
+      option.textContent = shop;
+      shopSelect.appendChild(option);
+    });
+  } catch (err) {
+    console.error("Error loading shops:", err);
+  }
+}
+
+async function loadProducts() {
+  const grid = document.getElementById('productGrid');
+  try {
+    const response = await fetch('balaji_products_all.json', { cache: 'no-store' });
+    const products = await response.json();
+    products.forEach(product => {
+      const title = product.title || "Unknown Product";
+      const variants = Array.isArray(product.variants) ? product.variants : [];
+      variants.forEach(variant => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const p = document.createElement('p');
+        p.textContent = `${title} - ${variant.title} (₹${variant.price})`;
+        card.appendChild(p);
+
+        const select = document.createElement('select');
+        select.name = `${title}_${variant.title}`.replace(/\s+/g, '_');
+        quantityOptions.forEach(qty => {
+          const option = document.createElement('option');
+          option.value = qty;
+          option.textContent = qty;
+          select.appendChild(option);
+        });
+        card.appendChild(select);
+
+        grid.appendChild(card);
+      });
+    });
+  } catch (err) {
+    console.error("Error loading products:", err);
+  }
+}
+
 function buildOrderData() {
   const shopName = document.getElementById("shopSelect").value;
   const now = new Date();
@@ -15,17 +73,8 @@ function buildOrderData() {
   return { data, now };
 }
 
-// Trigger downloads AFTER Apps Script responds
 document.querySelector("iframe[name='hidden_iframe']").onload = function() {
   const { data, now } = buildOrderData();
-
-  // JSON download
-  const jsonBlob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
-  const jsonUrl = URL.createObjectURL(jsonBlob);
-  const jsonLink = document.createElement("a");
-  jsonLink.href = jsonUrl;
-  jsonLink.download = "order.json";
-  jsonLink.click();
 
   // CSV download
   const rows = [["Shop Name", data.shopName], ["Order Date", data.orderDate], ["Device Type", data.deviceType], [], ["Product", "Quantity"]];
@@ -48,5 +97,9 @@ document.querySelector("iframe[name='hidden_iframe']").onload = function() {
   csvLink.download = `${safeShopName}-${safeDate}-${safeTime}.csv`;
   csvLink.click();
 
-  console.log("✅ Order submitted and files downloaded");
+  console.log("✅ Order submitted and CSV downloaded");
 };
+
+// Initialize
+loadShops();
+loadProducts();
