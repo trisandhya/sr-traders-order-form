@@ -138,8 +138,10 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
     setTimeout(() => {
       toast.remove();
     }, 3000);
-    window.location.reload();
-    //document.getElementById('orderForm').reset();
+   
+    // ✅ Reset form AFTER toast disappears
+    document.getElementById('orderForm').reset();
+  
   });
 
   // Local JSON download
