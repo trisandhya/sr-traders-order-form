@@ -30,13 +30,14 @@ async function loadProducts() {
     const products = await response.json();
     products.forEach(product => {
       const title = product.title || "Unknown Product";
-      const imageSrc = product?.images?.[0]?.src || "";
+      const imageSrc = product.images && product.images.length > 0 ? product.images[0].src : "";
+
       const variants = Array.isArray(product.variants) ? product.variants : [];
       variants.forEach(variant => {
         const card = document.createElement('div');
         card.className = 'card';
 
-        // ✅ restore product image
+        // ✅ Add product image
         if (imageSrc) {
           const img = document.createElement('img');
           img.src = imageSrc;
@@ -50,7 +51,7 @@ async function loadProducts() {
 
         const select = document.createElement('select');
         select.name = `${title}_${variant.title}`.replace(/\s+/g, '_');
-        quantityOptions.forEach(qty => {
+        [0, 12, 24, 36, 48].forEach(qty => {
           const option = document.createElement('option');
           option.value = qty;
           option.textContent = qty;
@@ -65,6 +66,7 @@ async function loadProducts() {
     console.error("Error loading products:", err);
   }
 }
+
 
 
 function buildOrderData() {
