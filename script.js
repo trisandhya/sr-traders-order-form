@@ -103,16 +103,13 @@ async function loadProducts() {
   }
 }
 
-// Form submission handler
-document.getElementById('orderForm').addEventListener('submit', function(e) {
-  // DO NOT call e.preventDefault()
+// Prepare data for downloads
+function buildOrderData() {
   const shopName = document.getElementById("shopSelect").value;
-  // Live date stamp instead of user input
   const now = new Date();
   const orderDate = now.toISOString().split("T")[0]; // yyyy-mm-dd
   const data = { shopName, orderDate, deviceType: getDeviceType() };
 
-  // Collect product quantities
   const selects = document.querySelectorAll("select:not(#shopSelect)");
   selects.forEach(select => {
     const val = parseInt(select.value, 10);
@@ -120,8 +117,12 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
       data[select.name] = val;
     }
   });
+  return { data, now };
+}
 
-  // Local JSON download
+// Trigger local downloads after submission completes
+function triggerDownloads(data, now) {
+  // JSON download
   const jsonBlob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
   const jsonUrl = URL.createObjectURL(jsonBlob);
   const jsonLink = document.createElement("a");
@@ -129,7 +130,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   jsonLink.download = "order.json";
   jsonLink.click();
 
-  // Local CSV download
+  // CSV download
   const rows = [
     ["Shop Name", data.shopName],
     ["Order Date", data.orderDate],
@@ -155,7 +156,29 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   const safeTime = `${hh}-${mm}-${ss}`;
   csvLink.download = `${safeShopName}-${safeDate}-${safeTime}.csv`;
   csvLink.click();
-});
+}
+
+// Attach iframe onload handler
+document.querySelector("iframe[name='hidden_iframe']").onload = function() {
+  const { data, now } = buildOrderData();
+  triggerDownloads(data, now);
+
+  // Optional: confirmation toast
+  const toast = document.createElement('div');
+  toast.textContent = "✅ Order submitted successfully!";
+  toast.style.position = "fixed";
+  toast.style.bottom = "20px";
+  toast.style.right = "20px";
+  toast.style.background = "#4CAF50";
+  toast.style.color = "white";
+  toast.style.padding = "12px 20px";
+  toast.style.borderRadius = "6px";
+  toast.style.boxShadow = "0 2px 6px rgba(0,0,0,0.3)";
+  toast.style.zIndex = "9999";
+  document.body.appendChild(toast);
+
+  setTimeout(() => toast.remove(), 3000);
+};
 
 // Initialize
 loadShops();
