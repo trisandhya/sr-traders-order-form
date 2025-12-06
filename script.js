@@ -119,28 +119,6 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
     if (val > 0) {
       data[select.name] = val;
     }
-
-    // Show confirmation toast
-    const toast = document.createElement('div');
-    toast.textContent = "✅ Order submitted successfully!";
-    toast.style.position = "fixed";
-    toast.style.bottom = "20px";
-    toast.style.right = "20px";
-    toast.style.background = "#4CAF50";
-    toast.style.color = "white";
-    toast.style.padding = "12px 20px";
-    toast.style.borderRadius = "6px";
-    toast.style.boxShadow = "0 2px 6px rgba(0,0,0,0.3)";
-    toast.style.zIndex = "9999";
-    document.body.appendChild(toast);
-    
-    // Remove toast after 3 seconds
-    setTimeout(() => {
-      toast.remove();
-    }, 3000);
-   
-    // ✅ Reset form AFTER toast disappears
-    // document.getElementById('orderForm').reset();
   
   });
 
