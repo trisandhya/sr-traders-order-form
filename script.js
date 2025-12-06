@@ -34,4 +34,4 @@ Promise.all([
   });
 });
 
-// Note: no hidden_iframe logic here — submission handled in index.html via fetch
+// No hidden_iframe logic here — submission handled in index.html via fetch
