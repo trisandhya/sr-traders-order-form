@@ -119,6 +119,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
     if (val > 0) {
       data[select.name] = val;
     }
+    document.getElementById('orderForm').reset();
   });
 
   // Local JSON download
