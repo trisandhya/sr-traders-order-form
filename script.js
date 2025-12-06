@@ -138,7 +138,8 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
     setTimeout(() => {
       toast.remove();
     }, 3000);
-    document.getElementById('orderForm').reset();
+    window.location.reload();
+    //document.getElementById('orderForm').reset();
   });
 
   // Local JSON download
