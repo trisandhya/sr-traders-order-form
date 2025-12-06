@@ -3,12 +3,6 @@
 // Fixed quantity choices (pack sizes)
 const quantityOptions = [0, 12, 24, 36, 48];
 
-// Utility to mask secrets in logs
-function maskSecret(secret) {
-  if (!secret) return "";
-  return secret.substring(0, 6) + "..." + secret.slice(-4);
-}
-
 // get device type
 function getDeviceType() {
   if (navigator.userAgentData) {
@@ -63,7 +57,6 @@ async function loadProducts() {
         const card = document.createElement('div');
         card.className = 'card';
 
-        // Product image (optional)
         if (imageSrc) {
           const img = document.createElement('img');
           img.src = imageSrc;
@@ -71,13 +64,11 @@ async function loadProducts() {
           card.appendChild(img);
         }
 
-        // Product title + variant + price
         const p = document.createElement('p');
         const priceText = vPrice !== "" ? ` (₹${vPrice})` : "";
         p.textContent = `${title} - ${vTitle}${priceText}`;
         card.appendChild(p);
 
-        // Quantity dropdown
         const select = document.createElement('select');
         const keyBase = `${title}_${vTitle}${vSku ? `_${vSku}` : ""}`;
         select.name = keyBase.replace(/\s+/g, '_').replace(/[^\w\-]/g, '');
@@ -107,7 +98,7 @@ async function loadProducts() {
 function buildOrderData() {
   const shopName = document.getElementById("shopSelect").value;
   const now = new Date();
-  const orderDate = now.toISOString().split("T")[0]; // yyyy-mm-dd
+  const orderDate = now.toISOString().split("T")[0];
   const data = { shopName, orderDate, deviceType: getDeviceType() };
 
   const selects = document.querySelectorAll("select:not(#shopSelect)");
@@ -162,22 +153,6 @@ function triggerDownloads(data, now) {
 document.querySelector("iframe[name='hidden_iframe']").onload = function() {
   const { data, now } = buildOrderData();
   triggerDownloads(data, now);
-
-  // Optional: confirmation toast
-  const toast = document.createElement('div');
-  toast.textContent = "✅ Order submitted successfully!";
-  toast.style.position = "fixed";
-  toast.style.bottom = "20px";
-  toast.style.right = "20px";
-  toast.style.background = "#4CAF50";
-  toast.style.color = "white";
-  toast.style.padding = "12px 20px";
-  toast.style.borderRadius = "6px";
-  toast.style.boxShadow = "0 2px 6px rgba(0,0,0,0.3)";
-  toast.style.zIndex = "9999";
-  document.body.appendChild(toast);
-
-  setTimeout(() => toast.remove(), 3000);
 };
 
 // Initialize
