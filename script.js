@@ -119,6 +119,7 @@ document.querySelector("iframe[name='hidden_iframe']").onload = function() {
     const form = document.getElementById("orderForm");
     if (form) {
       form.reset();
+      popup.style.display = "none";
       console.log("🧹 Form reset after 1 seconds");
     } else {
       console.warn("Form not found — reset skipped");
