@@ -110,11 +110,16 @@ document.querySelector("iframe[name='hidden_iframe']").onload = function() {
   csvLink.click();
 
   console.log("✅ Order submitted and CSV downloaded");
+
+  // Show popup immediately
+  const popup = document.getElementById("popup");
+  popup.style.display = "block";
+  
    setTimeout(() => {
     const form = document.getElementById("orderForm");
     if (form) {
       form.reset();
-      console.log("🧹 Form reset after 3 seconds");
+      console.log("🧹 Form reset after 1 seconds");
     } else {
       console.warn("Form not found — reset skipped");
     }
