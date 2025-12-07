@@ -38,11 +38,25 @@
     button[type="submit"]:hover {
       background: #45a049;
     }
+    #popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    display: none; /* hidden by default */
+    z-index: 2000;
+    }
   </style>
 </head>
 <body>
   <h1>SR-Traders Order Form</h1>
-
+  <!-- Popup notification -->
+  <div id="popup">✅ Order submitted successfully!</div>
+  
   <!-- Hidden iframe to capture Apps Script response -->
   <iframe name="hidden_iframe" style="display:none"></iframe>
 
@@ -66,5 +80,6 @@
   </form>
 
   <script src="script.js"></script>
+  
 </body>
 </html>
