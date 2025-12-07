@@ -110,6 +110,11 @@ document.querySelector("iframe[name='hidden_iframe']").onload = function() {
   csvLink.click();
 
   console.log("✅ Order submitted and CSV downloaded");
+  // ⏳ Wait 5 seconds, then reset form
+  setTimeout(() => {
+    e.target.reset();
+    alert("Form reset after 2 seconds");
+  }, 2000);
 };
 
 // Initialize
