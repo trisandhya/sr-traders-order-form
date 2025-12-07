@@ -22,6 +22,17 @@ async function loadShops() {
     console.error("Error loading shops:", err);
   }
 }
+// Show input when "Other" is selected
+document.getElementById("shopSelect").addEventListener("change", function() {
+  const newShopInput = document.getElementById("newShopInput");
+  if (this.value === "__other__") {
+    newShopInput.style.display = "inline-block";
+    newShopInput.required = true;
+  } else {
+    newShopInput.style.display = "none";
+    newShopInput.required = false;
+  }
+});
 
 async function loadProducts() {
   const grid = document.getElementById('productGrid');
@@ -70,7 +81,12 @@ async function loadProducts() {
 
 
 function buildOrderData() {
-  const shopName = document.getElementById("shopSelect").value;
+   const shopSelect = document.getElementById("shopSelect");
+   let shopName = shopSelect.value;
+     if (shopName === "__other__") {
+       shopName = document.getElementById("newShopInput").value.trim();
+     }
+  
   const now = new Date();
   const orderDate = now.toISOString().split("T")[0];
   const data = { shopName, orderDate, deviceType: getDeviceType() };
