@@ -110,11 +110,15 @@ document.querySelector("iframe[name='hidden_iframe']").onload = function() {
   csvLink.click();
 
   console.log("✅ Order submitted and CSV downloaded");
-   // ⏳ Wait 1 seconds, then reset form
-  setTimeout(() => {
-    e.target.reset();
-    alert("Form reset after 1 seconds");
-  }, 1000);
+   setTimeout(() => {
+    const form = document.getElementById("orderForm");
+    if (form) {
+      form.reset();
+      console.log("🧹 Form reset after 3 seconds");
+    } else {
+      console.warn("Form not found — reset skipped");
+    }
+  }, 3000);
 };
 
 // Initialize
