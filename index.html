@@ -70,8 +70,11 @@
       <label for="shopSelect">Shop:</label>
       <select id="shopSelect" name="shopName" required>
         <option value="">-- Select Shop --</option>
+        <option value="__other__">Other (Add New Shop)</option>
       </select>
-
+      <!-- Hidden input for new shop -->
+      <input type="text" id="newShopInput" name="newShopName" placeholder="Enter new shop name" style="display:none;">
+      
       <button type="submit">Submit Order</button>
     </div>
 
